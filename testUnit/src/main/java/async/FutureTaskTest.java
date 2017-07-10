@@ -1,13 +1,8 @@
 package async;
 
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
@@ -28,7 +23,7 @@ public class FutureTaskTest {
 			TimeUnit.SECONDS.sleep(2);
 			return Integer.valueOf(10086);
 		});
-		Future<?> future = exec.submit(ft);
+		exec.submit(ft);
 		System.out.println("你好啊@");
 		try {
 			System.out.println("isDone:" + ft.isDone());
