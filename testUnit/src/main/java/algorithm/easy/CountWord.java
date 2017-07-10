@@ -1,4 +1,4 @@
-package testUnit.algorithm;
+package algorithm.easy;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package testUnit.algorithm;
+package algorithm.easy;
 
 /**
  * @author Linuxea 林修论
