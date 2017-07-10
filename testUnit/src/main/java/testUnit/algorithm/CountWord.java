@@ -33,7 +33,7 @@ public class CountWord {
 			}
 		}
 		
-//System.out.println("看这里"+maps);
+			//System.out.println("看这里"+maps);
 			
 			Set<Character> sets = maps.keySet();
 			Iterator<Character> iter = sets.iterator();
