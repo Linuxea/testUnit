@@ -94,7 +94,7 @@ public class Lottery {
 			}
 		}
 		System.out.println("你输入的数字为:"+newList);
-		
+		sc.close();
 		//以下是检验你输入的数字中将等级
 		int k = 0;//表示红球中奖数字的个数
 		int kk = 0;//表示蓝球是否相同
