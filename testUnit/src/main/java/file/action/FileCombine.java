@@ -2,10 +2,7 @@ package file.action;
 
 import org.testng.collections.Lists;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.Comparator;
 import java.util.List;
 import java.util.UUID;
@@ -15,6 +12,7 @@ import java.util.UUID;
  */
 public class FileCombine {
 
+    private static final int size = 2^5; //切割文件大小
     private static String baseFilePath = "C:\\Users\\linuxea.lin\\Desktop\\split";
 
     public static void combine(String fileName) throws Exception {
@@ -43,12 +41,23 @@ public class FileCombine {
         for(File temp : fileList){
             System.out.println("current file name:" + temp.getName());
             FileInputStream is = new FileInputStream(temp);
-            int byteCount = 0;
-            while(byteCount != -1){
-                byte[] b = new byte[2048];
+            DataInputStream ds = new DataInputStream(is);
+//            int byteCount = 0;
+            /*while(byteCount != -1){
+                byte[] b = new byte[size];
                 byteCount =  is.read(b);
                 byteList.add(b);
+            }*/
+
+            for(;;){
+                byte[] b = new byte[size]; //每次都是新的 杜绝有最后一次数据覆盖不全及其它情况
+                if(-1 != (ds.read(b))){
+                    byteList.add(b);
+                }else{
+                    break;
+                }
             }
+
             is.close();
         }
 
@@ -71,7 +80,7 @@ public class FileCombine {
 
     public static void main(String[] argc){
         try {
-            FileCombine.combine("ab5b75c9-f9a3-45ed-bca0-6d416dfde553_th");
+            FileCombine.combine("a011d10d-845e-4cfd-b060-75c496beebf1_the_");
         } catch (Exception e) {
             e.printStackTrace();
         }

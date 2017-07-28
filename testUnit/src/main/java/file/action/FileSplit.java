@@ -11,17 +11,11 @@ import java.util.*;
  */
 public class FileSplit {
 
-    private static final int size = 204800; //切割文件大小
-    private int partNum; //切割块数  //TODO 根据块数去决定
+    private static final int size = 2^5; //切割文件大小
     private static String baseFilePath = "C:\\Users\\linuxea.lin\\Desktop\\split";
 
     FileSplit(int partNum, String baseFilePath){
-        this.partNum = partNum;
         this.baseFilePath = baseFilePath;
-    }
-
-    FileSplit(int partNum){
-        this.partNum = partNum;
     }
 
     public static void make(String fileName) throws Exception {
@@ -57,8 +51,6 @@ public class FileSplit {
 
         //将存放在硬盘
         Set<String> keys =  byteMap.keySet();
-        int i = 1;
-        int j = keys.size();
         for(String keyStr : keys){
             System.out.println("当前是处理:" + keyStr);
             File f = new File(baseFilePath + "\\" + keyStr);
@@ -71,22 +63,6 @@ public class FileSplit {
         }
     }
 
-    /**
-     * 数组无效数据清理
-     * @param bbb
-     */
-    private static byte[] filter(byte[] bbb) {
-        int flag = 0;
-        for(int i = bbb.length-1;i>=0;i--){
-            if(bbb[i] == 0 && bbb[i-1]!=0){
-                flag = i+1;
-                break;
-            }
-        }
-        byte[] filterB = new byte[flag];
-        System.arraycopy(bbb,0,filterB,0,filterB.length);
-        return filterB;
-    }
 
     public static void main(String[] argc) {
         try {
