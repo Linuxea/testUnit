@@ -10,9 +10,9 @@ import java.util.*;
  */
 public class FileSplit {
 
-    private static final int size =20000; //切割文件大小
+    private static final int size = 10240; //切割文件大小
     private int partNum; //切割块数  //TODO 根据块数去决定
-    private static String baseFilePath = "C:\\Users\\Administrator.SKY-20170312TVX\\Desktop\\split";
+    private static String baseFilePath = "C:\\Users\\linuxea.lin\\Desktop\\split";
 
     FileSplit(int partNum, String baseFilePath){
         this.partNum = partNum;
@@ -43,7 +43,7 @@ public class FileSplit {
             System.out.println("reading...");
         }
 
-        //将数组存放在硬盘
+        //将存放在硬盘
         Set<String> keys =  byteMap.keySet();
         for(String keyStr : keys){
             File f = new File(baseFilePath + "\\" + keyStr);
@@ -58,7 +58,7 @@ public class FileSplit {
 
     public static void main(String[] argc) {
         try {
-            FileSplit.make("C:\\Users\\Administrator.SKY-20170312TVX\\Desktop\\1.jpg");
+            FileSplit.make("C:\\Users\\linuxea.lin\\Desktop\\zh.jpg");
         } catch (Exception e) {
             e.printStackTrace();
         }
