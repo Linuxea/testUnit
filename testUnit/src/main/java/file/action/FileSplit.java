@@ -51,6 +51,8 @@ public class FileSplit {
             FileOutputStream outputStream = new FileOutputStream(f);
             outputStream.write(byteMap.get(keyStr));
             System.out.println("writing ....");
+            outputStream.flush();
+            outputStream.close();
         }
     }
 

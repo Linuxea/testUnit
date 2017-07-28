@@ -7,6 +7,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Comparator;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by Linuxea on 2017-07-28.
@@ -32,21 +33,26 @@ public class FileCombine {
                 byteCount =  is.read(b);
                 byteList.add(b);
             }
+            is.close();
         }
 
-        File file = new File(baseFilePath + "\\" + "fuck.jpg");
+        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".jpg");
+        FileOutputStream out = null;
         for(byte[] bytes : byteList){
-            FileOutputStream out = new FileOutputStream(file);
+            out = new FileOutputStream(file);
             out.write(bytes);
             System.out.println("wrinting...");
         }
+        out.flush();
+        out.close();
+
 
 
     }
 
     public static void main(String[] argc){
         try {
-            FileCombine.combine("d299399b-88f9-4d60-b813-c712ab7fb208_the");
+            FileCombine.combine("eaa0f714-aebc-495b-8916-d9145dde00fa_the");
         } catch (Exception e) {
             e.printStackTrace();
         }
