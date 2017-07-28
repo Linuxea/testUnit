@@ -61,7 +61,7 @@ public class FileCombine {
             is.close();
         }
 
-        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".docx");
+        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".txt");
 
         System.err.println("all byte size:" + byteList.size());
 
@@ -80,7 +80,7 @@ public class FileCombine {
 
     public static void main(String[] argc){
         try {
-            FileCombine.combine("9e71c861-d5c0-470a-aef9-a3921b95da1d_th");
+            FileCombine.combine("e39bd053-c028-486f-bc85-f598985dca86_the");
         } catch (Exception e) {
             e.printStackTrace();
         }

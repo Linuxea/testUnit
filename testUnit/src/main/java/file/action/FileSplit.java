@@ -65,7 +65,7 @@ public class FileSplit {
 
     public static void main(String[] argc) {
         try {
-            FileSplit.make("C:\\Users\\linuxea.lin\\Desktop\\代理出货核销单-CI Result.docx");
+            FileSplit.make("C:\\Users\\linuxea.lin\\Desktop\\choice-ERP-2017-06-28-0.log");
         } catch (Exception e) {
             e.printStackTrace();
         }

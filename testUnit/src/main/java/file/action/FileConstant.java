@@ -11,6 +11,6 @@ public class FileConstant {
      * 分割与合并的数组要一致
      * 以上结论完全有错误的可能
      */
-    protected static final int size = 2^5000;
+    protected static final int size = 2^5000*10000;
 
 }
