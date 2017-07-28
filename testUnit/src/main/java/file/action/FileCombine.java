@@ -22,7 +22,21 @@ public class FileCombine {
         File[] childs = f.listFiles(fli -> fli.getName().startsWith(fileName));
 
         List<File> fileList = Lists.newArrayList(childs);
-        fileList.sort(Comparator.comparing(File::getName));
+        fileList.sort(new Comparator<File>() {
+            @Override
+            public int compare(File o1, File o2) {
+                String o1_suffix
+                        = o1.getName().substring(o1.getName().lastIndexOf("_")+1);
+                String o2_suffix
+                        = o2.getName().substring(o2.getName().lastIndexOf("_")+1);
+                if(Integer.parseInt(o1_suffix) > Integer.parseInt(o2_suffix)){
+                    return 1;
+                }else if(Integer.parseInt(o1_suffix) == Integer.parseInt(o2_suffix)){
+                    return 0;
+                }
+                return -1;
+            }
+        });
 
         List<byte[]> byteList = Lists.newArrayList(); //集成所有字节
 
@@ -38,7 +52,7 @@ public class FileCombine {
             is.close();
         }
 
-        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".xlsx");
+        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".docx");
 
         System.err.println("all byte size:" + byteList.size());
 
@@ -57,7 +71,7 @@ public class FileCombine {
 
     public static void main(String[] argc){
         try {
-            FileCombine.combine("1034c1a4-fc5b-470c-b469-8166f0ef8291_the");
+            FileCombine.combine("ab5b75c9-f9a3-45ed-bca0-6d416dfde553_th");
         } catch (Exception e) {
             e.printStackTrace();
         }
