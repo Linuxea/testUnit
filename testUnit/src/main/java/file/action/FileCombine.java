@@ -38,7 +38,7 @@ public class FileCombine {
             is.close();
         }
 
-        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".pdf");
+        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".xlsx");
 
         System.err.println("all byte size:" + byteList.size());
 
@@ -57,7 +57,7 @@ public class FileCombine {
 
     public static void main(String[] argc){
         try {
-            FileCombine.combine("f44513fd-dfd4-40ae-8248-a6ccc5c2c785_the");
+            FileCombine.combine("1034c1a4-fc5b-470c-b469-8166f0ef8291_the");
         } catch (Exception e) {
             e.printStackTrace();
         }
