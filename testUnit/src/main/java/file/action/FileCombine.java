@@ -12,7 +12,6 @@ import java.util.UUID;
  */
 public class FileCombine {
 
-    private static final int size = 2^5; //切割文件大小
     private static String baseFilePath = "C:\\Users\\linuxea.lin\\Desktop\\split";
 
     public static void combine(String fileName) throws Exception {
@@ -36,6 +35,7 @@ public class FileCombine {
             }
         });
 
+
         List<byte[]> byteList = Lists.newArrayList(); //集成所有字节
 
         for(File temp : fileList){
@@ -50,7 +50,7 @@ public class FileCombine {
             }*/
 
             for(;;){
-                byte[] b = new byte[size]; //每次都是新的 杜绝有最后一次数据覆盖不全及其它情况
+                byte[] b = new byte[FileConstant.size]; //每次都是新的 杜绝有最后一次数据覆盖不全及其它情况
                 if(-1 != (ds.read(b))){
                     byteList.add(b);
                 }else{
@@ -80,7 +80,7 @@ public class FileCombine {
 
     public static void main(String[] argc){
         try {
-            FileCombine.combine("a011d10d-845e-4cfd-b060-75c496beebf1_the_");
+            FileCombine.combine("9e71c861-d5c0-470a-aef9-a3921b95da1d_th");
         } catch (Exception e) {
             e.printStackTrace();
         }

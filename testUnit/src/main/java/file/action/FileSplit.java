@@ -11,7 +11,6 @@ import java.util.*;
  */
 public class FileSplit {
 
-    private static final int size = 2^5; //切割文件大小
     private static String baseFilePath = "C:\\Users\\linuxea.lin\\Desktop\\split";
 
     FileSplit(int partNum, String baseFilePath){
@@ -41,7 +40,7 @@ public class FileSplit {
             System.out.println("reading...");
         }*/
     for(;;){
-        byte[] b = new byte[size]; //每次都是新的 杜绝有最后一次数据覆盖不全及其它情况
+        byte[] b = new byte[FileConstant.size]; //每次都是新的 杜绝有最后一次数据覆盖不全及其它情况
         if(-1 != (ds.read(b))){
             byteMap.put(randomName + "_the_" + (count++),b);
         }else{
