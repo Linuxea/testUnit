@@ -87,7 +87,7 @@ public class CacheUtils {
 	 */
 	public static <T> T get(String key){
 		CacheObject thisCa = cache.get(key);
-		if(thisCa.getExpireTime()<=0 || thisCa.getExpireTime()>System.currentTimeMillis()){
+		if(null!=thisCa && thisCa.getExpireTime()<=0 || thisCa.getExpireTime()>System.currentTimeMillis()){
 			return (T) thisCa.getValue();
 		}
 		//过时级别的缓存不在此处做销毁处理  以免销毁动作影响缓存带来的性能提升
