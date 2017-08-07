@@ -10,6 +10,7 @@ import com.google.common.collect.Maps;
  *@version   1.0
  *@author    Linuxea.lin
 */
+@SuppressWarnings("unchecked")
 public class CacheUtils {
 	
 	private static final Map<String,CacheObject> cache =Maps.newConcurrentMap();
@@ -33,8 +34,7 @@ public class CacheUtils {
 	 */
 	public static void setWithSeconds(String key,Object data, int seconds){
 		long expireTime = System.currentTimeMillis() + seconds * 1000;
-		CacheObject ca = new CacheObject(key, data, expireTime);
-		cache.put(key,ca);
+		set(key, data, expireTime);
 	}
 	
 	/**
@@ -45,8 +45,7 @@ public class CacheUtils {
 	 */
 	public static void setWithMinutes(String key,Object data, int minutes){
 		long expireTime = System.currentTimeMillis() + minutes * 60 * 1000;
-		CacheObject ca = new CacheObject(key, data, expireTime);
-		cache.put(key,ca);
+		set(key, data, expireTime);
 	}
 	
 	/**
@@ -57,8 +56,7 @@ public class CacheUtils {
 	 */
 	public static void setWithHours(String key,Object data, int hours){
 		long expireTime = System.currentTimeMillis() + hours * 60 * 60 * 1000;
-		CacheObject ca = new CacheObject(key, data, expireTime);
-		cache.put(key,ca);
+		set(key, data, expireTime);
 	}
 	
 	/**
@@ -69,8 +67,7 @@ public class CacheUtils {
 	 */
 	public static void setwithDays(String key,Object data, int days){
 		long expireTime = System.currentTimeMillis() + days * 24 * 60 * 60 * 1000;
-		CacheObject ca = new CacheObject(key, data, expireTime);
-		cache.put(key,ca);
+		set(key, data, expireTime);
 	}
 	
 	
@@ -88,7 +85,6 @@ public class CacheUtils {
 	 * @param key
 	 * @return
 	 */
-	@SuppressWarnings("unchecked")
 	public static <T> T get(String key){
 		CacheObject thisCa = cache.get(key);
 		if(thisCa.getExpireTime()<=0 || thisCa.getExpireTime()>System.currentTimeMillis()){
@@ -96,6 +92,65 @@ public class CacheUtils {
 		}
 		//过时级别的缓存不在此处做销毁处理  以免销毁动作影响缓存带来的性能提升
 		return null;
+	}
+	
+	
+	/**
+	 * hset set value
+	 * @param key
+	 * @param field
+	 * @param data
+	 * @param expireTime
+	 */
+	public static void hset(String key,String field,Object data, long expireTime){
+		String keyWithField = key + ":" + field;
+		CacheObject ca = new CacheObject(keyWithField, data, expireTime);
+		cache.put(keyWithField,ca);
+	}
+	
+	public static void hset(String key,String field,Object data){
+		hset(key, field, data, -1);
+	}
+	
+	public static void hsetWithSeconds(String key, String field, Object data, int seconds){
+		hset(key, field, data, System.currentTimeMillis() + seconds * 1000);
+	}
+	
+	public static void hsetWithMinutes(String key, String field, Object data, int minutes){
+		hset(key, field, data, System.currentTimeMillis() + minutes * 60 * 1000);
+	}
+	
+	public static void hsetWithDays(String key, String field, Object data, int days){
+		hset(key, field, data, System.currentTimeMillis() + days * 24 * 60 * 1000);
+	}
+	
+	/**
+	 * hash get get value
+	 * @param key
+	 * @param field
+	 * @return
+	 */
+	public static <T> T hget(String key, String field){
+		CacheObject obj = cache.get(key + ":" + field);
+		if(null!=obj && obj.getExpireTime()<0 || obj.getExpireTime()>System.currentTimeMillis()){
+			return (T) obj.getValue();
+		}
+		return null;
+	}
+	
+	
+	/**
+	 * delete key
+	 */
+	public static void del(String key){
+		cache.remove(key);
+	}
+	
+	/**
+	 * delete hash key
+	 */
+	public static void del(String key, String field){
+		cache.remove(key + ":" + field);
 	}
 	
 	
@@ -114,11 +169,6 @@ public class CacheUtils {
 	public static boolean containsKey(String key){
 		return cache.containsKey(key);
 	}
-	
-	
-	
-	
-	
 	
 	private static class CacheObject{
 		private String key;
