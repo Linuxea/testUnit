@@ -125,9 +125,7 @@ public class CacheUtils {
 	 * @param expireTime
 	 */
 	public static void hset(String key,String field,Object data, long expireTime){
-		String keyWithField = key + ":" + field;
-		CacheObject ca = new CacheObject(keyWithField, data, expireTime);
-		cache.put(keyWithField,ca);
+		set( key + ":" + field, data, expireTime);
 	}
 	
 	public static void hset(String key,String field,Object data){
@@ -144,6 +142,10 @@ public class CacheUtils {
 	
 	public static void hsetWithDays(String key, String field, Object data, int days){
 		hset(key, field, data, System.currentTimeMillis() + days * 24 * 60 * 1000);
+	}
+
+	public static void hset(String key, String field, Object data, long time, TimeUnit unit){
+		set( key + ":" + field, data, time, unit);
 	}
 	
 	/**
