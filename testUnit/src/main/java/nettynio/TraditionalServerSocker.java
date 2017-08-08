@@ -19,7 +19,7 @@ public class TraditionalServerSocker {
         while(true){
             Socket socket = serverSocket.accept();
             System.out.println("coming a new guy:" + socket.getRemoteSocketAddress());
-            executorService.execute(() -> {new Handle(socket)});
+            executorService.execute(new Handle(socket));
         }
     }
 
