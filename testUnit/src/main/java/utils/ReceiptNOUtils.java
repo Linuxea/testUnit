@@ -20,7 +20,7 @@ public class ReceiptNOUtils {
 	private static final Map<String, String> receptiPrefix = Maps.newConcurrentMap(); //table与前缀的映射
 	private static final Map<String, String> timeMap = Maps.newConcurrentMap(); //模块与时间格式关联
 
-	private static final  Object lock = new Object();
+	private static final Object lock = new Object();
 
 
 
