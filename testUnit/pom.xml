@@ -49,5 +49,11 @@
           <version>21.0</version>
       </dependency>
 
+      <dependency>
+          <groupId>com.jfinal</groupId>
+          <artifactId>jfinal</artifactId>
+          <version>3.2</version>
+      </dependency>
+
   </dependencies>
 </project>
