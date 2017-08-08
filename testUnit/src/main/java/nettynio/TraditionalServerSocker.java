@@ -16,21 +16,30 @@ public class TraditionalServerSocker {
     private List<Socket> sockets  = Lists.newArrayList();
 
     private void init() throws IOException {
+        serverSocket = new ServerSocket(9090);
         while(true){
-            serverSocket = new ServerSocket(9090);
             Socket socket = serverSocket.accept();
-            InputStream inputStream = socket.getInputStream();
-            OutputStream outputStream = socket.getOutputStream();
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
-            PrintWriter printWriter = new PrintWriter(outputStream);
-            while(true){
-                String line = null;
-                if(!"exit".equals(line == bufferedReader.readLine())){
-                    System.out.println(line);
-                    printWriter.write("heh");
-                }else {
-                    System.out.println("exit");
-                }
+            sockets.add(socket);
+        }
+    }
+
+    public void listen() throws Exception{
+        for(Socket socket : sockets){
+            while (true){
+               try(InputStream inputStream = socket.getInputStream();
+                   OutputStream outputStream = socket.getOutputStream();
+                   BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+                   PrintWriter printWriter = new PrintWriter(outputStream)){
+                    while(true){
+                       String line = null;
+                       if(!"exit".equals(line == bufferedReader.readLine())){
+                           System.out.println(line);
+                           printWriter.write("heh");
+                       }else {
+                           System.out.println("exit");
+                       }
+                   }
+               }
             }
         }
     }
