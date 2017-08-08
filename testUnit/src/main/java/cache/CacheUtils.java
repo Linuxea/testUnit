@@ -1,6 +1,7 @@
 package cache;
 
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import com.google.common.collect.Maps;
 
@@ -92,6 +93,27 @@ public class CacheUtils {
 		}
 		//过时级别的缓存不在此处做销毁处理  以免销毁动作影响缓存带来的性能提升
 		return null;
+	}
+
+
+	/**
+	 * 根据单位参数设置生命周期
+	 * @param key
+	 * @param data
+	 * @param time
+	 * @param unit
+	 */
+	public static void set(String key, Object data, long time, TimeUnit unit){
+		long currentTime = System.currentTimeMillis();
+		long expireTime;
+		switch (unit){
+			case DAYS:expireTime = currentTime + time * 24 * 60 * 60 * 1000;break;
+			case HOURS:expireTime = currentTime + time * 60 * 60 * 1000;break;
+			case MINUTES:expireTime = currentTime + time * 60 * 1000;break;
+			case SECONDS:expireTime = currentTime + time * 1000;break;
+			default:throw new UnsupportedOperationException("暂不支持此级别缓存");
+		}
+		set(key, data, expireTime);
 	}
 	
 	
