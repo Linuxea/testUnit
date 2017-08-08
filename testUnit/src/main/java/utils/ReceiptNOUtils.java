@@ -115,19 +115,16 @@ public class ReceiptNOUtils {
 	 * @return
 	 */
 	private static String getPrefix(String constStant, String tableName){
-		String prefix;
-		prefix = receptiPrefix.get(tableName);
-		if(null == prefix){
+		if(null == receptiPrefix.get(tableName)){
 			synchronized (lock) {
 				if(null == receptiPrefix.get(tableName)){
 					String sql = "SELECT PARAM_VALUE FROM SS_DOCUMNET_NUMBER_PARAM WHERE SS_DOCUMNET_NUMBER_PARAM.`PARAM_NAME` = ?;";
 					String tablePrefix = Db.queryStr(sql, constStant);
 					receptiPrefix.put(tableName, tablePrefix);
-					prefix = receptiPrefix.get(tableName);
 				}
 			}
 		}
-		return prefix;
+		return receptiPrefix.get(tableName);
 	}
 
 }
