@@ -40,13 +40,21 @@ public class ReceiptNOUtils {
 	public static String getReceipt(String constStant, String tableName, String receiptFieldName, String idFieldName){
 		String prefix = getPrefix(constStant, tableName);
 		String time = getTime(constStant, tableName);
-		Integer tailNums = getTailNums(constStant,tableName, receiptFieldName, idFieldName);;
+		Integer tailNums = getTailNums(constStant,tableName, receiptFieldName, idFieldName);
+		String afterHandle = handleTailNums(tailNums);
+		return new StringBuilder().append(prefix).append(time).append(afterHandle).toString();
+	}
+
+	/**
+	 * 尾数处理
+	 * @param tailNums
+	 */
+	private static String handleTailNums(Integer tailNums) {
 		StringBuilder sb = new StringBuilder("");
 		for(int j=tailNums.toString().length(); NUM_LEN > j;j++){
 			sb.append("0"); //不足三位前面补零 超过三位返回原来值
 		}
-		sb.append(tailNums);
-		return new StringBuilder().append(prefix).append(time).append(sb).toString();
+		return sb.append(tailNums).toString();
 	}
 
 
