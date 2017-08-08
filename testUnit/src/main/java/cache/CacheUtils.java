@@ -167,7 +167,7 @@ public class CacheUtils {
 	 * @return
 	 */
 	public static boolean containsKey(String key){
-		return cache.containsKey(key);
+		return cache.containsKey(key) && cache.get(key).getExpireTime()>System.currentTimeMillis();
 	}
 	
 	private static class CacheObject{
