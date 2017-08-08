@@ -3,6 +3,8 @@ package nettynio;
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Created by Linuxea on 2017-08-08.
@@ -12,11 +14,12 @@ public class TraditionalServerSocker {
     private ServerSocket serverSocket;
 
     private void init() throws IOException {
+        ExecutorService executorService = Executors.newCachedThreadPool();
         serverSocket = new ServerSocket(9090);
         while(true){
             Socket socket = serverSocket.accept();
             System.out.println("coming a new guy:" + socket.getRemoteSocketAddress());
-            new Thread(new Handle(socket)).start();
+            executorService.execute(() -> {new Handle(socket)});
         }
     }
 
