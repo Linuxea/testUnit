@@ -15,6 +15,7 @@ import com.google.common.collect.Maps;
 public class CacheUtils {
 	
 	private static final Map<String,CacheObject> cache =Maps.newConcurrentMap();
+	private static final String SPLIT = ":";
 	
 	/**
 	 * set key value
@@ -125,7 +126,7 @@ public class CacheUtils {
 	 * @param expireTime
 	 */
 	public static void hset(String key,String field,Object data, long expireTime){
-		set( key + ":" + field, data, expireTime);
+		set( key + SPLIT + field, data, expireTime);
 	}
 	
 	public static void hset(String key,String field,Object data){
@@ -145,7 +146,7 @@ public class CacheUtils {
 	}
 
 	public static void hset(String key, String field, Object data, long time, TimeUnit unit){
-		set( key + ":" + field, data, time, unit);
+		set( key + SPLIT + field, data, time, unit);
 	}
 	
 	/**
@@ -155,7 +156,7 @@ public class CacheUtils {
 	 * @return
 	 */
 	public static <T> T hget(String key, String field){
-		CacheObject obj = cache.get(key + ":" + field);
+		CacheObject obj = cache.get(key + SPLIT + field);
 		if(null != obj && (obj.getExpireTime()<0 || obj.getExpireTime()>System.currentTimeMillis())){
 			return (T) obj.getValue();
 		}
@@ -174,7 +175,7 @@ public class CacheUtils {
 	 * delete hash key
 	 */
 	public static void del(String key, String field){
-		cache.remove(key + ":" + field);
+		cache.remove(key + SPLIT + field);
 	}
 	
 	
