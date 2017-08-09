@@ -19,9 +19,8 @@ public class TraditionalServerSocker {
     }
 
     private void init() throws IOException {
-        ExecutorService executorService = null;
+        ExecutorService executorService = Executors.newCachedThreadPool();
         try {
-            executorService = Executors.newCachedThreadPool();
             serverSocket = new ServerSocket(9090);
             while(on){
                 Socket socket = serverSocket.accept();
