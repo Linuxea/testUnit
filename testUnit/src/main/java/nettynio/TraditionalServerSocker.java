@@ -11,15 +11,25 @@ import java.util.concurrent.Executors;
  */
 public class TraditionalServerSocker {
 
+    private volatile boolean on = true;
     private ServerSocket serverSocket;
 
+    public void off(){
+        on = false;
+    }
+
     private void init() throws IOException {
-        ExecutorService executorService = Executors.newCachedThreadPool();
-        serverSocket = new ServerSocket(9090);
-        while(true){
-            Socket socket = serverSocket.accept();
-            System.out.println("coming a new guy:" + socket.getRemoteSocketAddress());
-            executorService.execute(new Handle(socket));
+        ExecutorService executorService = null;
+        try {
+            executorService = Executors.newCachedThreadPool();
+            serverSocket = new ServerSocket(9090);
+            while(on){
+                Socket socket = serverSocket.accept();
+                System.out.println("coming a new guy:" + socket.getRemoteSocketAddress());
+                executorService.execute(new Handle(socket));
+            }
+        }finally {
+            executorService.shutdown();
         }
     }
 
@@ -66,6 +76,7 @@ public class TraditionalServerSocker {
     public static void main(String[] argc) throws IOException {
         TraditionalServerSocker socket = new TraditionalServerSocker();
         socket.init();
+        //socket.off();
     }
 
 }
