@@ -4,7 +4,7 @@ package design.chain;
  * Created by Linuxea on 2017/8/10.
  * String 过滤器模式
  */
-public class StringChain implements Chain<String> {
+public abstract class StringChain implements Chain<String> {
 
 	/**
 	 * 默认实现
