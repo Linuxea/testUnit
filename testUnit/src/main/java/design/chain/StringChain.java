@@ -4,18 +4,7 @@ package design.chain;
  * Created by Linuxea on 2017/8/10.
  * String 过滤器模式
  */
-public class StringFilter implements Chain<String> {
-
-	private StringFilter next;
-
-	public StringFilter getNext() {
-		return next;
-	}
-
-	public void setNext(StringFilter next) {
-		this.next = next;
-	}
-
+public class StringChain implements Chain<String> {
 
 	/**
 	 * 默认实现
@@ -27,6 +16,11 @@ public class StringFilter implements Chain<String> {
 		return string;
 	}
 
+	/**
+	 * 构造持续调用
+	 * @param s
+	 * @return
+	 */
 	@Override
 	public final String begin(String s) {
 		String string = this.doIt(s);
@@ -34,6 +28,16 @@ public class StringFilter implements Chain<String> {
 			string = next.begin(string);
 		}
 		return string;
+	}
+
+	private StringChain next;
+
+	public StringChain getNext() {
+		return next;
+	}
+
+	public void setNext(StringChain next) {
+		this.next = next;
 	}
 
 

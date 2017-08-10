@@ -6,9 +6,9 @@ package design.chain;
  */
 public class ChainDesign {
 
-	private static final StringFilter toUpperFilter = new ToUpperFilter();
-	private static final StringFilter filterDigitFilter = new FilterDightFilter();
-	private static final StringFilter endFilter = new AppendGoodFilter();
+	private static final StringChain toUpperFilter = new ToUpperFilter();
+	private static final StringChain filterDigitFilter = new FilterDightFilter();
+	private static final StringChain endFilter = new AppendGoodFilter();
 
 	public static void init(){
 		toUpperFilter.setNext(filterDigitFilter);
