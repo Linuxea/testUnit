@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c1dc91a-3b79-44d5-ae71-24fe6168b3fe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testUnit.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/ChangeTwoNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/CountWord.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/CountWordKind.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/DFSPermutationGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/Lottery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/MaxSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/PowerOfFour.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/PrimeNumber.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/TwoIntegerAdd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/async/FutureTaskTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/Father.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/GrandFather.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/InheritTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/Son.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/cache/CacheUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/AppendGoodFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/Chain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/ChainDesign.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/FilterDightFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/JoinFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/StringChain.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/ToUpperFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/file/action/FileCombine.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/file/action/FileConstant.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/file/action/FileSplit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/cache/CacheTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/collection/CollectionTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/hash/hashTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/io/IOTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/Animal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/OptionDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/PreConditionTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/prim/primitiveTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/reflect/ReflectTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/string/StringTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/lambda/MethodReferencesTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/nettynio/TraditionalServerSocker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/reflect/aop/BaseService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/reflect/aop/CglibGenerate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/reflect/aop/ServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/threads/VolatileTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/utils/ReceiptNOUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/testUnit (1).iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/testUnit.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="0c1dc91a-3b79-44d5-ae71-24fe6168b3fe" name="Default" comment="update whole project">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,6 +11,30 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ReceiptNOUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/ReceiptNOUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeTwoNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/easy/ChangeTwoNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,6 +67,12 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="140" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="970" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -130,6 +100,32 @@
               <item name="testUnit" type="b2602c69:ProjectViewProjectNode" />
               <item name="testUnit" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,6 +137,117 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.travis.yml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,12 +353,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503056141635</updated>
-      <workItem from="1503056142830" duration="52000" />
+      <workItem from="1503056142830" duration="746000" />
     </task>
+    <task id="LOCAL-00001" summary="update whole project">
+      <created>1503056203702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503056203702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52000" />
+    <option name="totallyTimeSpent" value="746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -263,8 +378,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -287,12 +402,60 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update whole project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update whole project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ReceiptNOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/easy/ChangeTwoNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
