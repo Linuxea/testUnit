@@ -1,5 +1,9 @@
 language: java
-
-xcode_project: /testUnit
-
-#xcode_scheme: MyNewProjectTests #你需要集成测试的scheme
+script: mvn -q clean install
+# whitelist
+branches:
+  only:
+    - master
+notifications:
+  email:
+    - cukes-devs@googlegroups.com
