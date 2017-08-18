@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/testUnit/target/classes/META-INF/maven/linuxea/testUnit/testUnit.iml" filepath="$PROJECT_DIR$/testUnit/target/classes/META-INF/maven/linuxea/testUnit/testUnit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testUnit/testUnit (1).iml" filepath="$PROJECT_DIR$/testUnit/testUnit (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/testUnit/testUnit.iml" filepath="$PROJECT_DIR$/testUnit/testUnit.iml" />
     </modules>
   </component>
 </project>
