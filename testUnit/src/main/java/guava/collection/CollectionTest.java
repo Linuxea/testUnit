@@ -4,6 +4,7 @@ import com.google.common.collect.*;
 import org.junit.Test;
 
 import java.util.Map;
+import java.util.TreeSet;
 
 /**
  * Created by Linuxea on 2017/8/18.
@@ -60,5 +61,22 @@ public class CollectionTest {
 		Map<String, String> map = multimap.asMap();
 		System.out.println(map);
 	}
+
+	@Test
+	public void rangeTest(){
+		RangeSet<Integer> rangeSet = TreeRangeSet.create();
+		rangeSet.add(Range.openClosed(0,100));
+		rangeSet.add(Range.openClosed(100,120));
+		System.out.println(rangeSet.span());
+	}
+
+	@Test
+	public void test11(){
+		ImmutableSet.of(1,2,3,4,5).parallelStream().forEach(System.out::print);
+		System.out.println("\n**************");
+		ImmutableSortedSet.of(1,2,3,4,5).parallelStream().forEach(System.out::print);
+	}
+
+
 
 }
