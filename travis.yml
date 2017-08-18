@@ -1,0 +1,5 @@
+language: java
+
+xcode_project: /testUnit
+
+#xcode_scheme: MyNewProjectTests #你需要集成测试的scheme
