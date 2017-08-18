@@ -6,7 +6,6 @@ import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;
 import org.junit.Test;
 import org.testng.collections.Sets;
-
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Set;
@@ -52,6 +51,7 @@ public class StringTest {
 		String str = "I love kimboo";
 		byte[] bytes = str.getBytes(Charsets.UTF_8);
 		System.out.println(Arrays.toString(bytes));
+		System.out.println(new String(bytes,Charsets.UTF_8));
 	}
 
 }
