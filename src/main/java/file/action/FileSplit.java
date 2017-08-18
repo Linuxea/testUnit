@@ -14,7 +14,7 @@ public class FileSplit {
     private static String baseFilePath = "C:\\Users\\linuxea.lin\\Desktop\\split";
 
     FileSplit(int partNum, String baseFilePath){
-        this.baseFilePath = baseFilePath;
+        FileSplit.baseFilePath = baseFilePath;
     }
 
     public static void make(String fileName) throws Exception {
