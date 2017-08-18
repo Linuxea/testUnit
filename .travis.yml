@@ -1,8 +1,0 @@
-language: java
-# whitelist
-branches:
-  only:
-    - master
-notifications:
-  email:
-    - linuxea@foxmail.com
