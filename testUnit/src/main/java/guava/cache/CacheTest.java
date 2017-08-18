@@ -4,6 +4,8 @@ import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import org.junit.Test;
 
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -12,16 +14,20 @@ import java.util.concurrent.TimeUnit;
 public class CacheTest {
 
 	@Test
-	public void test1(){
+	public void test1() throws InterruptedException, ExecutionException {
 		Cache cache =
 				CacheBuilder.newBuilder()
 						.maximumSize(100)
-						.expireAfterAccess(100, TimeUnit.SECONDS)
+						.expireAfterWrite(5, TimeUnit.SECONDS)
 						.build();
 		cache.put("name", "linuxea");
 		cache.put("sex","boy");
 		cache.put("age", 11);
-		System.out.println(cache.asMap());
+		while (true){
+			TimeUnit.SECONDS.sleep(1);
+			Object obj = cache.get("name", () -> "ok");
+			System.out.println(obj);
+		}
 	}
 
 }
