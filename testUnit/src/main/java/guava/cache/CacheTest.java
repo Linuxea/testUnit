@@ -17,6 +17,7 @@ public class CacheTest {
 	public void test1() throws InterruptedException, ExecutionException {
 		Cache cache =
 				CacheBuilder.newBuilder()
+						.softValues()
 						.maximumSize(100)
 						.expireAfterWrite(5, TimeUnit.SECONDS)
 						.build();
