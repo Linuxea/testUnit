@@ -2,9 +2,12 @@ language: java
 
 jdk:
   - oraclejdk8
-  - source 8
 
-script: mvn clean install
+script:
+  - mvn clean install
+  - jdk_switcher use oraclejdk8
+
+
 
 notifications:  
   email:
