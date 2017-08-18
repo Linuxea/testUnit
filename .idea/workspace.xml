@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9244c61d-8b7c-492f-a5d0-c3a5a7e64023" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testunit_travis.yml" afterPath="" />
+    <list default="true" id="0c1dc91a-3b79-44d5-ae71-24fe6168b3fe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testUnit.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.settings/org.eclipse.core.resources.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/ChangeTwoNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/CountWord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/CountWordKind.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/DFSPermutationGenerator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/Lottery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/MaxSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/PowerOfFour.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/PrimeNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/algorithm/easy/TwoIntegerAdd.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/async/FutureTaskTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/Father.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/GrandFather.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/InheritTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/basic/inherit/Son.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/cache/CacheUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/AppendGoodFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/Chain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/ChainDesign.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/FilterDightFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/JoinFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/StringChain.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/design/chain/ToUpperFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/file/action/FileCombine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/file/action/FileConstant.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/file/action/FileSplit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/cache/CacheTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/collection/CollectionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/hash/hashTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/io/IOTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/Animal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/OptionDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/PreConditionTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/prim/primitiveTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/reflect/ReflectTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/guava/string/StringTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/lambda/MethodReferencesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/nettynio/TraditionalServerSocker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/reflect/aop/BaseService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/reflect/aop/CglibGenerate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/reflect/aop/ServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/threads/VolatileTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/src/main/java/utils/ReceiptNOUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/testUnit (1).iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testUnit/testUnit.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="$PROJECT_DIR$/testUnit/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,301 +72,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CollectionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/collection/CollectionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImmutableMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/ImmutableMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="140" column="35" lean-forward="false" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegularImmutableMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/RegularImmutableMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="81" column="11" lean-forward="false" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Nullable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/javax/annotation/Nullable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/cache/CacheTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="primitiveTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/prim/primitiveTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/reflect/ReflectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/optional/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testUnit/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/optional/OptionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-              <folding>
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PreConditionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/optional/PreConditionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/io/IOTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$JDK_HOME$/src.zip!/java/io/FileInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="92" column="51" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hashTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/hash/hashTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashFunction.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/hash/HashFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="135" column="9" lean-forward="false" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hashing.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/hash/Hashing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="168" column="28" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="28" />
-              <folding>
-                <element signature="e#6453#6454#0" expanded="true" />
-                <element signature="e#6483#6484#0" expanded="true" />
-                <element signature="e#9219#9220#0" expanded="true" />
-                <element signature="e#9292#9293#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Charsets.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/base/Charsets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Charset.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$JDK_HOME$/src.zip!/java/nio/charset/Charset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="527" column="41" lean-forward="false" selection-start-line="527" selection-start-column="41" selection-end-line="527" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$JDK_HOME$/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="488" column="11" lean-forward="false" selection-start-line="488" selection-start-column="11" selection-end-line="488" selection-end-column="11" />
-              <folding>
-                <element signature="e#18781#18782#0" expanded="true" />
-                <element signature="e#18834#18835#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>CacheUtils</find>
-      <find>hget</find>
-      <find>get</find>
-      <find>contains</find>
-      <find>hset</find>
-      <find>set</find>
-      <find>charset</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <push-targets>
-      <push-target-info target-remote="origin" target-branch="master" repo="$PROJECT_DIR$" source="master" />
-    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/cache/CacheObject.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/cache/CacheUtilsTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/cache/Hello.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/cache/BranchHello.java" />
-        <option value="$USER_HOME$/Desktop/数据对接/AddGroupUserWindowPageModel.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/cache/CacheUtils.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/utils/ReceptiNOUtils.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/utils/ReceiptNOUtils.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/nettynio/TraditionalServerSocker.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/ToUpperFilter.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/FilterDightFilter.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/AppendGoodFilter.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/Chain.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/ChainDesign.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/StringFilter.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/chain/ToUpperFilter.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/chain/StringFilter.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/chain/Chain.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/chain/JoinFilter.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/chain/StringChain.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/design/chain/ChainDesign.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/OptionDemo.java" />
-        <option value="$PROJECT_DIR$/testUnit/pom.xml" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/PreConditionTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/optional/Animal.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/collection/CollectionTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/string/StringTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/cache/CacheTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/io/IOTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/hash/hashTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/primitiveTest.java" />
-        <option value="$PROJECT_DIR$/testUnit/src/main/java/guava/reflect/ReflectTest.java" />
-      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -319,7 +89,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="$MY_MAVEN_HOME$" />
         <option name="userSettingsFile" value="D:\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -327,29 +97,13 @@
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
-        <option name="lookForNested" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="970" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -365,7 +119,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,137 +134,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ImmutableMultiset&#9;PSI&#9;JAVA://com.google.common.collect.ImmutableMultiset&#10;ArrayQueue&#9;PSI&#9;JAVA://com.sun.jmx.remote.internal.ArrayQueue&#10;Queue&#9;PSI&#9;JAVA://java.util.Queue&#10;Queu&#9;PSI&#9;JAVA://java.awt.Queue&#10;Stack&#9;PSI&#9;JAVA://java.util.Stack&#10;List&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java&#10;Collections&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collections.java&#10;InputStreamReader&#9;PSI&#9;JAVA://java.io.InputStreamReader" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/testUnit/src/main/java/guava" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\githome\testUnit\testUnit" />
-    </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/testunit_travis.yml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -521,107 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionTest.rangeTest">
-    <configuration name="CollectionTest.rangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="guava.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="guava.collection" />
-      <option name="MAIN_CLASS_NAME" value="guava.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="rangeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CollectionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="guava.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="guava.collection" />
-      <option name="MAIN_CLASS_NAME" value="guava.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="test4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CollectionTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="guava.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="guava.collection" />
-      <option name="MAIN_CLASS_NAME" value="guava.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="test7" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ReflectTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="guava.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="guava.reflect" />
-      <option name="MAIN_CLASS_NAME" value="guava.reflect.ReflectTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -702,1091 +235,70 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="hashTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="guava.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="guava.hash" />
-      <option name="MAIN_CLASS_NAME" value="guava.hash.hashTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.hashTest.test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ReflectTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTest.test4" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionTest.test7" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectionTest.rangeTest" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectionTest.rangeTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionTest.test7" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTest.test4" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ReflectTest.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.hashTest.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9244c61d-8b7c-492f-a5d0-c3a5a7e64023" name="Default" comment="" />
-      <created>1502094155915</created>
+      <changelist id="0c1dc91a-3b79-44d5-ae71-24fe6168b3fe" name="Default" comment="" />
+      <created>1503056141635</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1502094155915</updated>
-      <workItem from="1502094161793" duration="4534000" />
-      <workItem from="1502098820642" duration="8394000" />
-      <workItem from="1502186766792" duration="12746000" />
-      <workItem from="1502503906801" duration="1826000" />
-      <workItem from="1502791948893" duration="633000" />
-      <workItem from="1503040234020" duration="12399000" />
+      <updated>1503056141635</updated>
+      <workItem from="1503056142830" duration="52000" />
     </task>
-    <task id="LOCAL-00001" summary="rename cache class">
-      <created>1502095090264</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1502095090264</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fix">
-      <created>1502096214574</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1502096214574</updated>
-    </task>
-    <task id="LOCAL-00003" summary="delete test class">
-      <created>1502097666388</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1502097666388</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add hello">
-      <created>1502097847258</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1502097847258</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add hello to branch_1">
-      <created>1502097936775</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1502097936775</updated>
-    </task>
-    <task id="LOCAL-00006" summary="delete some files">
-      <created>1502098125974</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1502098125974</updated>
-    </task>
-    <task id="LOCAL-00007" summary="简化">
-      <created>1502098417419</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1502098417419</updated>
-    </task>
-    <task id="LOCAL-00008" summary="containsKey方法同时多个条件判断">
-      <created>1502173117397</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1502173117397</updated>
-    </task>
-    <task id="LOCAL-00009" summary="重载参数TimeUnit方法">
-      <created>1502174094336</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1502174094336</updated>
-    </task>
-    <task id="LOCAL-00010" summary="复用方法重载">
-      <created>1502174803923</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1502174803923</updated>
-    </task>
-    <task id="LOCAL-00011" summary=": 定义成const">
-      <created>1502175996987</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1502175996987</updated>
-    </task>
-    <task id="LOCAL-00012" summary="添加jfinal依赖">
-      <created>1502186835006</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1502186835006</updated>
-    </task>
-    <task id="LOCAL-00013" summary="基本类型原子多线程递增安全实例与lazy load 案例">
-      <created>1502186928662</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1502186928662</updated>
-    </task>
-    <task id="LOCAL-00014" summary="static before final">
-      <created>1502187318174</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1502187318174</updated>
-    </task>
-    <task id="LOCAL-00015" summary="delete extra whitespace">
-      <created>1502187339943</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1502187339943</updated>
-    </task>
-    <task id="LOCAL-00016" summary="方法等级划分">
-      <created>1502189495311</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1502189495311</updated>
-    </task>
-    <task id="LOCAL-00017" summary="消除隐患">
-      <created>1502190442209</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1502190442209</updated>
-    </task>
-    <task id="LOCAL-00018" summary="设计模式之chain模式">
-      <created>1502354583058</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1502354583058</updated>
-    </task>
-    <task id="LOCAL-00019" summary="update pom.xml">
-      <created>1502354602548</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1502354602548</updated>
-    </task>
-    <task id="LOCAL-00020" summary="rename to a eligible Class name">
-      <created>1502354826073</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1502354826073</updated>
-    </task>
-    <task id="LOCAL-00021" summary="添加一个测试默认实现do的方法">
-      <created>1502355278577</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1502355278577</updated>
-    </task>
-    <task id="LOCAL-00022" summary="测试demo ChainDesign">
-      <created>1502355569114</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1502355569114</updated>
-    </task>
-    <task id="LOCAL-00023" summary="StringChain抽象化。不允许直接实现">
-      <created>1502356862558</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1502356862558</updated>
-    </task>
-    <task id="LOCAL-00024" summary="add guava test file">
-      <created>1503040716263</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1503040716263</updated>
-    </task>
-    <task id="LOCAL-00025" summary="guava checkstatue test">
-      <created>1503041081160</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1503041081160</updated>
-    </task>
-    <task id="LOCAL-00026" summary="collection test">
-      <created>1503042825144</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1503042825144</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add multimap test:/">
-      <created>1503044269235</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1503044269235</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add cache test">
-      <created>1503045750062</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1503045750062</updated>
-    </task>
-    <task id="LOCAL-00029" summary="expireAfterWrite test">
-      <created>1503046370566</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1503046370566</updated>
-    </task>
-    <task id="LOCAL-00030" summary="add string test">
-      <created>1503046905600</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1503046905600</updated>
-    </task>
-    <task id="LOCAL-00031" summary="iterablb has method of lambda">
-      <created>1503047114720</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1503047114720</updated>
-    </task>
-    <task id="LOCAL-00032" summary="字符集的东东">
-      <created>1503047603330</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1503047603330</updated>
-    </task>
-    <task id="LOCAL-00033" summary="字符的编码与解码">
-      <created>1503047747124</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1503047747124</updated>
-    </task>
-    <task id="LOCAL-00034" summary="add io test">
-      <created>1503048588089</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1503048588089</updated>
-    </task>
-    <task id="LOCAL-00035" summary="guava test on the afternoon">
-      <created>1503049934706</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1503049934706</updated>
-    </task>
-    <task id="LOCAL-00036" summary="add ci configuration">
-      <created>1503053925118</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1503053925118</updated>
-    </task>
-    <task id="LOCAL-00037" summary="rename configuration file name">
-      <created>1503054094339</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1503054094339</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="CollectionTest_rangeTest - 2017.08.18 at 18h 11m 14s.xml">
-      <configuration name="CollectionTest.rangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionTest_rangeTest - 2017.08.18 at 18h 11m 23s.xml">
-      <configuration name="CollectionTest.rangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionTest_test4 - 2017.08.18 at 18h 10m 56s.xml">
-      <configuration name="CollectionTest.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectionTest_test7 - 2017.08.18 at 18h 10m 59s.xml">
-      <configuration name="CollectionTest.test7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReflectTest_test - 2017.08.18 at 17h 49m 10s.xml">
-      <configuration name="ReflectTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="hashTest_test - 2017.08.18 at 17h 43m 23s.xml">
-      <configuration name="hashTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="hashTest_test - 2017.08.18 at 17h 43m 27s.xml">
-      <configuration name="hashTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="hashTest_test - 2017.08.18 at 17h 45m 06s.xml">
-      <configuration name="hashTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="hashTest_test - 2017.08.18 at 17h 45m 40s.xml">
-      <configuration name="hashTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="hashTest_test - 2017.08.18 at 17h 45m 52s.xml">
-      <configuration name="hashTest.test" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40532000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="52000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19284065" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30138567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2671149" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995381" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection>
-                  <UserGroup>
-                    <option name="users">
-                      <list>
-                        <option value="origin/branch_1" />
-                      </list>
-                    </option>
-                  </UserGroup>
-                </collection>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="text">
-                    <value>
-                      <list>
-                        <option value="" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="基本类型原子多线程递增安全实例与lazy load 案例" />
-    <MESSAGE value="static before final" />
-    <MESSAGE value="delete extra whitespace" />
-    <MESSAGE value="方法等级划分" />
-    <MESSAGE value="消除隐患" />
-    <MESSAGE value="设计模式之chain模式" />
-    <MESSAGE value="update pom.xml" />
-    <MESSAGE value="rename to a eligible Class name" />
-    <MESSAGE value="添加一个测试默认实现do的方法" />
-    <MESSAGE value="测试demo ChainDesign" />
-    <MESSAGE value="StringChain抽象化。不允许直接实现" />
-    <MESSAGE value="add guava test file" />
-    <MESSAGE value="guava checkstatue test" />
-    <MESSAGE value="collection test" />
-    <MESSAGE value="add multimap test:/" />
-    <MESSAGE value="add cache test" />
-    <MESSAGE value="expireAfterWrite test" />
-    <MESSAGE value="add string test" />
-    <MESSAGE value="iterablb has method of lambda" />
-    <MESSAGE value="字符集的东东" />
-    <MESSAGE value="字符的编码与解码" />
-    <MESSAGE value="add io test" />
-    <MESSAGE value="guava test on the afternoon" />
-    <MESSAGE value="add ci configuration" />
-    <MESSAGE value="rename configuration file name" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename configuration file name" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="23" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$JDK_HOME$/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/design">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>design</OriginalElement>
-          <nodes>
-            <node x="" y="">design.FilterDightFilter</node>
-            <node x="" y="">design.Chain</node>
-            <node x="" y="">design.StringFilter</node>
-            <node x="" y="">design.ToUpperFilter</node>
-            <node x="" y="">design.AppendGoodFilter</node>
-            <node x="" y="">design.ChainDesign</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="229.0" y="133.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/design/chain/ToUpperFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#182#183#0" expanded="false" />
-            <element signature="e#216#217#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/design/chain/FilterDightFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/design/chain/JoinFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-          <folding>
-            <element signature="e#199#200#0" expanded="false" />
-            <element signature="e#272#273#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/design/chain/ChainDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/design/chain/StringChain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#260#261#0" expanded="false" />
-            <element signature="e#586#587#0" expanded="false" />
-            <element signature="e#609#610#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/design/chain/Chain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/design/chain/AppendGoodFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/base/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="206" column="20" lean-forward="false" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="4138" column="44" lean-forward="true" selection-start-line="4138" selection-start-column="44" selection-end-line="4138" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/base/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="251" column="29" lean-forward="true" selection-start-line="251" selection-start-column="29" selection-end-line="251" selection-end-column="29" />
-          <folding>
-            <element signature="e#8767#8768#0" expanded="false" />
-            <element signature="e#8824#8825#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="206" column="13" lean-forward="false" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/ImmutableSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="50" column="81" lean-forward="true" selection-start-line="50" selection-start-column="81" selection-end-line="50" selection-end-column="81" />
-          <folding>
-            <element signature="e#2897#2898#0" expanded="false" />
-            <element signature="e#2957#2958#0" expanded="false" />
-            <element signature="e#3245#3246#0" expanded="false" />
-            <element signature="e#3299#3300#0" expanded="false" />
-            <element signature="e#3595#3596#0" expanded="false" />
-            <element signature="e#3632#3633#0" expanded="false" />
-            <element signature="e#3934#3935#0" expanded="false" />
-            <element signature="e#3975#3976#0" expanded="false" />
-            <element signature="e#4642#4643#0" expanded="false" />
-            <element signature="e#4691#4692#0" expanded="false" />
-            <element signature="e#13226#13227#0" expanded="false" />
-            <element signature="e#13248#13249#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="108" column="6" lean-forward="true" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/util/stream/Collector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1331">
-          <caret line="295" column="41" lean-forward="true" selection-start-line="295" selection-start-column="41" selection-end-line="295" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/RegularImmutableMultiset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2339">
-          <caret line="85" column="37" lean-forward="true" selection-start-line="85" selection-start-column="37" selection-end-line="85" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/ImmutableMultiset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="100" column="63" lean-forward="true" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
-          <folding>
-            <element signature="e#3971#3972#0" expanded="false" />
-            <element signature="e#4041#4042#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/HashMultiset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-          <folding>
-            <element signature="e#2230#2231#0" expanded="false" />
-            <element signature="e#2270#2271#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/Multimap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="379" column="24" lean-forward="false" selection-start-line="379" selection-start-column="24" selection-end-line="379" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/cache/Cache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/cache/CacheBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="494" column="9" lean-forward="true" selection-start-line="494" selection-start-column="9" selection-end-line="494" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/cache/Weigher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/base/CharMatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="1643" column="4" lean-forward="false" selection-start-line="1643" selection-start-column="4" selection-end-line="1643" selection-end-column="4" />
-          <folding>
-            <element signature="e#17702#17703#0" expanded="false" />
-            <element signature="e#17739#17740#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/guava.optional">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>guava.optional</OriginalElement>
-          <nodes>
-            <node x="-133.0" y="89.0">guava.optional.OptionDemo</node>
-            <node x="74.0" y="128.0">guava.optional.PreConditionTest</node>
-            <node x="-141.0" y="174.0">guava.optional.Animal</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="73.5" y="90.0" />
-          <SelectedNodes>
-            <node>guava.optional.PreConditionTest</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/string/StringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/utils/ReceiptNOUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-717">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/org/testng/testng/6.12/testng-6.12-sources.jar!/org/testng/internal/collections/Ints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/cache/CacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/base/Charsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="62" column="50" lean-forward="false" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="527" column="41" lean-forward="false" selection-start-line="527" selection-start-column="41" selection-end-line="527" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="488" column="11" lean-forward="false" selection-start-line="488" selection-start-column="11" selection-end-line="488" selection-end-column="11" />
-          <folding>
-            <element signature="e#18781#18782#0" expanded="true" />
-            <element signature="e#18834#18835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$JDK_HOME$/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="92" column="51" lean-forward="false" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/hash/Hashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="168" column="28" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="28" />
-          <folding>
-            <element signature="e#6453#6454#0" expanded="true" />
-            <element signature="e#6483#6484#0" expanded="true" />
-            <element signature="e#9219#9220#0" expanded="true" />
-            <element signature="e#9292#9293#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/hash/HashFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="135" column="9" lean-forward="false" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/prim/primitiveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/reflect/ReflectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/RegularImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="81" column="11" lean-forward="false" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar!/javax/annotation/Nullable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MY_MAVEN_REPOSITOY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/ImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="140" column="35" lean-forward="false" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/collection/CollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/hash/hashTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="17" column="61" lean-forward="false" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/io/IOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/optional/OptionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/optional/PreConditionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/src/main/java/guava/optional/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testunit_travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testUnit/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>testUnit</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: cglib:cglib-nodep:3.2.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
