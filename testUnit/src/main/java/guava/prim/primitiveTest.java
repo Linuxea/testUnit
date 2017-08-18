@@ -1,4 +1,4 @@
-package guava;
+package guava.prim;
 
 import org.junit.Test;
 import org.testng.internal.collections.Ints;
