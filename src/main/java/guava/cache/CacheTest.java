@@ -22,7 +22,8 @@ public class CacheTest {
 		cache.put("name", "linuxea");
 		cache.put("sex","boy");
 		cache.put("age", 11);
-		while (true){
+		int i =0;
+		while (++i>5){
 			TimeUnit.SECONDS.sleep(1);
 			Object obj = cache.get("name", () -> "ok");
 			System.out.println(obj);
