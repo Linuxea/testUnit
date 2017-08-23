@@ -1,6 +1,5 @@
 package lambda;
 
-import net.sf.cglib.core.Local;
 import org.junit.Test;
 import org.testng.collections.Lists;
 import java.time.LocalDate;
