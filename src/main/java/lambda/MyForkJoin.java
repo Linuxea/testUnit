@@ -1,8 +1,5 @@
 package lambda;
 
-import org.junit.Test;
-
-import java.util.Arrays;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
@@ -10,41 +7,7 @@ import java.util.concurrent.RecursiveTask;
 /**
  * create by linuxea on 2017/8/23 14:49
  **/
-public class ForkJoinTest {
-
-    @Test
-    public void test(){
-
-        long[] longs1 = new long[9999999];
-        for(int i=0;i<9999999;i++){
-            longs1[i] = i;
-        }
-
-        long sum = 0L;
-        for(int i = 0;i<longs1.length;i++){
-            sum += longs1[i];
-        }
-
-        System.out.println(sum);
-    }
-
-    @Test
-    public void test2(){
-       long[] longs1 = new long[9999999];
-        for(int i=0;i<9999999;i++){
-            longs1[i] = i;
-        }
-
-        ForkJoinPool forkJoinPool = new ForkJoinPool(4);
-        ForkJoinTask<Long> forkJoinTask = new MyForkJoin(longs1,0,longs1.length);
-        long result = forkJoinPool.invoke(forkJoinTask);
-        System.out.println(result);
-    }
-
-}
-
-
-class MyForkJoin extends RecursiveTask<Long> {
+public class MyForkJoin extends RecursiveTask<Long> {
 
     private static int SPACING = 999999;
     private long[] longs;
@@ -61,8 +24,12 @@ class MyForkJoin extends RecursiveTask<Long> {
 
     @Override
     protected Long compute() {
-        if(end - start < SPACING){
-            return Arrays.stream(longs).reduce(0L,Long::sum);
+        if(end - start <= SPACING){
+            long sum = 0L;
+            for(int i = start;i < end; i++){
+                sum += longs[i];
+            }
+            return sum;
         }else{
             int middle = (end + start) / 2;
             MyForkJoin leftJoin = new MyForkJoin(this.longs, start, middle);
@@ -91,4 +58,5 @@ class MyForkJoin extends RecursiveTask<Long> {
 
         System.out.println(result);
     }
+
 }
