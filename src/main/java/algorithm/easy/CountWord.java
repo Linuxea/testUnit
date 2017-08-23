@@ -43,7 +43,6 @@ public class CountWord {
 				System.out.println("字母:"+temp+"出现"+maps.get(temp));
 			}
 			sc.close();
-			sc = null;
 	}
 }
 

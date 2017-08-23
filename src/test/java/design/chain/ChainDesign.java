@@ -1,5 +1,7 @@
 package design.chain;
 
+import org.junit.Test;
+
 /**
  * Created by Linuxea on 2017/8/10.
  * StringFiltertest
@@ -22,9 +24,10 @@ public class ChainDesign {
 		System.out.println(result);
 	}
 
-	public static void main(String[] argc){
-		ChainDesign.init();
-		ChainDesign.run();
+	@Test
+	public void test(){
+        ChainDesign.init();
+        ChainDesign.run();
 	}
 
 }
