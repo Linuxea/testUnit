@@ -107,7 +107,7 @@ public class CollectorStreamTest {
 
     /**
      * 机智如我
-     * 今天任务完成 
+     * 今天任务完成
      */
     @Test
     public void test8(){
