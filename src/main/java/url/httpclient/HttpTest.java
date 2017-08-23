@@ -44,7 +44,7 @@ public class HttpTest {
 
     @Test
     public void postMethodTest() {
-        String choiceUrl = "http://120.77.77.190:8080/choice-ERP/login";
+        String choiceUrl = "http://www.baidu.com";
         HttpClient httpClient = new HttpClient();
         PostMethod postMethod = new PostMethod(choiceUrl);
         NameValuePair[] nameValuePairs = { new NameValuePair("username","username"),
