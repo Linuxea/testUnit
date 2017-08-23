@@ -105,4 +105,26 @@ public class CollectorStreamTest {
     }
 
 
+    /**
+     * 机智如我
+     * 今天任务完成 
+     */
+    @Test
+    public void test8(){
+
+        List<String[]> strings = Lists.newArrayList();
+        strings.add(new String[]{"linuxea","kimboo","jacky"});
+        strings.add(new String[]{"orange","fruit","pony"});
+        strings.add(new String[]{"miaoMi","linuxea","kimmy"});
+
+        strings
+                .stream()
+                .flatMap(Arrays::stream)
+                .map(s -> s.split(""))
+                .flatMap(Arrays::stream)
+                .distinct()
+                .forEach(System.out::println);
+    }
+
+
 }
