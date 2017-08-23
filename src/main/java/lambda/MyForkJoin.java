@@ -9,7 +9,7 @@ import java.util.concurrent.RecursiveTask;
  **/
 public class MyForkJoin extends RecursiveTask<Long> {
 
-    private static int SPACING = 999999;
+    private static int SPACING = 9999999;
     private long[] longs;
     private int start;
     private int end;
@@ -33,12 +33,12 @@ public class MyForkJoin extends RecursiveTask<Long> {
         }else{
             int middle = (end + start) / 2;
             MyForkJoin leftJoin = new MyForkJoin(this.longs, start, middle);
-            MyForkJoin rightJoin = new MyForkJoin(this.longs, middle+1, end);
+            MyForkJoin rightJoin = new MyForkJoin(this.longs, middle, end); //end 是不会算进去的
             invokeAll(leftJoin, rightJoin);
             Long leftJoinResult = leftJoin.join();
             Long rightJoinResult = rightJoin.join();
             Long result = leftJoinResult + rightJoinResult;
-            System.out.println("result = " + leftJoinResult + " + " + rightJoinResult + " ==> " + result);
+//            System.out.println("result = " + leftJoinResult + " + " + rightJoinResult + " ==> " + result);
             return result;
         }
     }
