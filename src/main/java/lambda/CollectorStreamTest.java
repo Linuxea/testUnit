@@ -72,7 +72,6 @@ public class CollectorStreamTest {
         strings.add(new String[]{"miaoMi","linuxea","kimmy"});
 
         Function<String[], Stream<String>> bibiString = stringArray -> Stream.of(stringArray);
-
         strings.stream().flatMap(bibiString).forEach(System.out::println);
 
     }
