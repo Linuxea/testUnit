@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b0ac2ae-b057-4296-b85a-9022af41adb2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/lambda/LetterCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/lambda/LetterCountTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testUnit.iml" afterPath="$PROJECT_DIR$/testUnit.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/design/chain/ChainDesign.java" afterPath="$PROJECT_DIR$/src/test/java/design/chain/ChainDesign.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lambda/CollectorStreamTest.java" afterPath="$PROJECT_DIR$/src/test/java/lambda/CollectorStreamTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lambda/MethodReferencesTest.java" afterPath="$PROJECT_DIR$/src/test/java/lambda/MethodReferencesTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lambda/MyForkJoinTest.java" afterPath="$PROJECT_DIR$/src/test/java/lambda/MyForkJoinTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lambda/ThreadTest.java" afterPath="$PROJECT_DIR$/src/test/java/lambda/ThreadTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/lambda/TimeTest.java" afterPath="$PROJECT_DIR$/src/test/java/lambda/TimeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CollectorStreamTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lambda/CollectorStreamTest.java">
+      <file leaf-file-name="ChangeTwoNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/easy/ChangeTwoNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="297">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountWord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/easy/CountWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LetterCount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/LetterCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,100 +48,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CacheUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cache/CacheUtils.java">
+      <file leaf-file-name="LetterCountTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/lambda/LetterCountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5536">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppendGoodFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/design/chain/AppendGoodFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterDightFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/design/chain/FilterDightFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChainDesign.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/design/chain/ChainDesign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MethodReferencesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lambda/MethodReferencesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyForkJoin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/MyForkJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="164">
+              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lambda/ThreadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lambda/TimeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyForkJoinTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lambda/MyForkJoinTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding>
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/main/java/lambda/MyForkJoin.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/MyForkJoinTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyForkJoinTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lambda/LetterCount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lambda/LetterCountTest.java" />
       </list>
     </option>
   </component>
@@ -247,6 +177,14 @@
               <item name="testUnit" type="b2602c69:ProjectViewProjectNode" />
               <item name="testUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,7 +200,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,8 +248,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyForkJoinTest">
-    <configuration name="CollectorStreamTest.myStringFlatMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LetterCountTest.test">
+    <configuration name="ChainDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="design.chain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="design.chain.ChainDesign" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testUnit" />
+      <envs />
+    </configuration>
+    <configuration name="LetterCountTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="lambda.*" />
@@ -322,8 +279,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.CollectorStreamTest" />
-      <option name="METHOD_NAME" value="myStringFlatMap" />
+      <option name="MAIN_CLASS_NAME" value="lambda.LetterCountTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -335,25 +292,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration name="MyForkJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="lambda.MyForkJoin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="testUnit" />
-      <envs />
     </configuration>
     <configuration name="MyForkJoinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -512,19 +450,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.myStringFlatMap" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MyForkJoin" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test2" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ChainDesign" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LetterCountTest.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MyForkJoin" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.myStringFlatMap" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LetterCountTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ChainDesign" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyForkJoinTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -700,36 +638,43 @@
       <option name="project" value="LOCAL" />
       <updated>1503476529016</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add maven test folders">
+      <created>1503477102801</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1503477102801</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 14m 27s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 40m 34s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 15m 24s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 42m 05s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 15m 59s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 43m 00s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 20m 28s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 43m 12s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 20m 39s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 45m 36s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 20m 57s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 46m 21s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 21m 19s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 46m 51s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 21m 29s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 47m 18s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 25m 45s.xml">
-      <configuration name="MyForkJoinTest" configurationId="JUnit" />
+    <history-entry file="LetterCountTest_test - 2017.08.23 at 16h 50m 03s.xml">
+      <configuration name="LetterCountTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MyForkJoinTest - 2017.08.23 at 16h 28m 33s.xml">
       <configuration name="MyForkJoinTest" configurationId="JUnit" />
@@ -751,7 +696,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22120099" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22120099" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -818,7 +763,8 @@
     <MESSAGE value="add test file" />
     <MESSAGE value="delete file" />
     <MESSAGE value="添加forkjoin测试类" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加forkjoin测试类" />
+    <MESSAGE value="add maven test folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="add maven test folders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,41 +773,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developtools/mavenRepo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/methods/GetMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="90" column="33" lean-forward="true" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
-          <folding>
-            <element signature="e#3102#3103#0" expanded="false" />
-            <element signature="e#3142#3143#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developtools/mavenRepo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/methods/PostMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="400" column="44" lean-forward="false" selection-start-line="400" selection-start-column="31" selection-end-line="400" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/developtools/mavenRepo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="317" column="15" lean-forward="false" selection-start-line="317" selection-start-column="15" selection-end-line="317" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/developtools/mavenRepo/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar!/org/apache/commons/httpclient/HttpMethodBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -1193,7 +1104,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/lambda/TimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1213,7 +1124,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cache/CacheUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5536">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1221,7 +1132,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/design/chain/AppendGoodFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1234,11 +1145,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threads/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/design/chain/ChainDesign.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="792">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/easy/ChangeTwoNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/easy/CountWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/LetterCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lambda/LetterCountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
