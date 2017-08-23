@@ -48,7 +48,7 @@ public class HttpTest {
         HttpClient httpClient = new HttpClient();
         PostMethod postMethod = new PostMethod(choiceUrl);
         NameValuePair[] nameValuePairs = { new NameValuePair("username","username"),
-        new NameValuePair("password","Admin201706")};
+        new NameValuePair("password","admin")};
         postMethod.setRequestBody(nameValuePairs);
         int stateCode = 0;
         try {
