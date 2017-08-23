@@ -72,10 +72,37 @@ public class CollectorStreamTest {
         strings.add(new String[]{"miaoMi","linuxea","kimmy"});
 
         Function<String[], Stream<String>> bibiString = stringArray -> Stream.of(stringArray);
-        strings.stream().flatMap(bibiString).forEach(System.out::println);
+        Consumer<String[]> consumer = stringArr -> System.out.println(Arrays.toString(stringArr));
+        strings.stream().flatMap(bibiString).map(s -> s.split("")).forEach(consumer);
+    }
+
+    @Test
+    public void test4(){
+
+        List<String[]> strings = Lists.newArrayList();
+        strings.add(new String[]{"linuxea","kimboo","jacky"});
+        strings.add(new String[]{"orange","fruit","pony"});
+        strings.add(new String[]{"miaoMi","linuxea","kimmy"});
 
     }
 
+    /**
+     * 流扁平化案例
+     */
+    @Test
+    public void test5(){
+        String[] strings = null;
+        strings = new String[]{"linuxeaa","kimboo","jacky"};
+        List<String> stringList = Arrays
+                .stream(strings)
+                .map(s -> s.split(""))
+                .flatMap(Arrays::stream)
+                .distinct()
+                .collect(Collectors.toList());
+
+        System.out.println(stringList);
+
+    }
 
 
 }
