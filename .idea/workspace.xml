@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b0ac2ae-b057-4296-b85a-9022af41adb2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/lambda/MyForkJoinTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyForkJoin.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyForkJoin.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lambda/MyForkJoin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
@@ -22,16 +23,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyForkJoinTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/lambda/MyForkJoinTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -540,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503474976381</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add test file">
+      <created>1503475301518</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1503475301518</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -655,7 +653,8 @@
     <MESSAGE value="delete unnecessary import" />
     <MESSAGE value="有问题版本的forkjoin" />
     <MESSAGE value="forkjoin修复版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="forkjoin修复版本" />
+    <MESSAGE value="add test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
