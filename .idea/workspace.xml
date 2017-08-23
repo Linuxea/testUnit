@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b0ac2ae-b057-4296-b85a-9022af41adb2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/lambda/CollectorStreamTest.java" afterPath="$PROJECT_DIR$/src/main/java/lambda/CollectorStreamTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,64 @@
       <file leaf-file-name="CollectorStreamTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lambda/CollectorStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lambda/ThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runnable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Runnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3073">
+              <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1588">
+              <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,6 +114,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/url/httpclient/HttpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lambda/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lambda/CollectorStreamTest.java" />
       </list>
     </option>
@@ -165,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectorStreamTest.myStringFlatMap">
+  <component name="RunManager" selected="JUnit.CollectorStreamTest.test5">
     <configuration name="CollectorStreamTest.myStringFlatMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -179,56 +232,6 @@
       <option name="PACKAGE_NAME" value="lambda" />
       <option name="MAIN_CLASS_NAME" value="lambda.CollectorStreamTest" />
       <option name="METHOD_NAME" value="myStringFlatMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CollectorStreamTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.CollectorStreamTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="CollectorStreamTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="testUnit" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="lambda" />
-      <option name="MAIN_CLASS_NAME" value="lambda.CollectorStreamTest" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -266,19 +269,69 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="HttpTest.postMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectorStreamTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="url.httpclient.*" />
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="testUnit" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="url.httpclient" />
-      <option name="MAIN_CLASS_NAME" value="url.httpclient.HttpTest" />
-      <option name="METHOD_NAME" value="postMethodTest" />
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.CollectorStreamTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CollectorStreamTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testUnit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.CollectorStreamTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ThreadTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="testUnit" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.ThreadTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -373,19 +426,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HttpTest.postMethodTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test2" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test3" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.myStringFlatMap" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test3" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.myStringFlatMap" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ThreadTest.test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test4" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.myStringFlatMap" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test3" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test2" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HttpTest.postMethodTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test5" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test4" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ThreadTest.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.myStringFlatMap" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CollectorStreamTest.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -442,39 +495,67 @@
       <option name="project" value="LOCAL" />
       <updated>1503461060845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="common commit">
+      <created>1503462439208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1503462439208</updated>
+    </task>
+    <task id="LOCAL-00008" summary="String[] -&gt; Stream.of(String[]) -&gt; Stream.of(String)???">
+      <created>1503462673088</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1503462673088</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Thread test">
+      <created>1503466441230</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1503466441230</updated>
+    </task>
+    <task id="LOCAL-00010" summary="流扁平化案例">
+      <created>1503467214557</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1503467214557</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 12h 05m 07s.xml">
+    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 13h 14m 10s.xml">
       <configuration name="CollectorStreamTest.myStringFlatMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 12h 13m 44s.xml">
+    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 13h 14m 47s.xml">
       <configuration name="CollectorStreamTest.myStringFlatMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 12h 24m 07s.xml">
+    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 13h 16m 50s.xml">
       <configuration name="CollectorStreamTest.myStringFlatMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 12h 25m 29s.xml">
+    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 13h 17m 48s.xml">
       <configuration name="CollectorStreamTest.myStringFlatMap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_myStringFlatMap - 2017.08.23 at 12h 25m 31s.xml">
-      <configuration name="CollectorStreamTest.myStringFlatMap" configurationId="JUnit" />
+    <history-entry file="CollectorStreamTest_test4 - 2017.08.23 at 13h 35m 56s.xml">
+      <configuration name="CollectorStreamTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_test - 2017.08.23 at 12h 06m 41s.xml">
-      <configuration name="CollectorStreamTest.test" configurationId="JUnit" />
+    <history-entry file="CollectorStreamTest_test4 - 2017.08.23 at 13h 37m 41s.xml">
+      <configuration name="CollectorStreamTest.test4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_test2 - 2017.08.23 at 12h 13m 02s.xml">
-      <configuration name="CollectorStreamTest.test2" configurationId="JUnit" />
+    <history-entry file="CollectorStreamTest_test5 - 2017.08.23 at 13h 45m 44s.xml">
+      <configuration name="CollectorStreamTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_test2 - 2017.08.23 at 12h 13m 21s.xml">
-      <configuration name="CollectorStreamTest.test2" configurationId="JUnit" />
+    <history-entry file="CollectorStreamTest_test5 - 2017.08.23 at 13h 46m 09s.xml">
+      <configuration name="CollectorStreamTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_test3 - 2017.08.23 at 12h 03m 55s.xml">
-      <configuration name="CollectorStreamTest.test3" configurationId="JUnit" />
+    <history-entry file="CollectorStreamTest_test5 - 2017.08.23 at 13h 46m 12s.xml">
+      <configuration name="CollectorStreamTest.test5" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectorStreamTest_test3 - 2017.08.23 at 12h 13m 26s.xml">
-      <configuration name="CollectorStreamTest.test3" configurationId="JUnit" />
+    <history-entry file="ThreadTest_test1 - 2017.08.23 at 13h 29m 49s.xml">
+      <configuration name="ThreadTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -518,11 +599,15 @@
     <MESSAGE value="流的扁平化操作" />
     <MESSAGE value="commit others" />
     <MESSAGE value="实现一个String flatMap" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现一个String flatMap" />
+    <MESSAGE value="common commit" />
+    <MESSAGE value="String[] -&gt; Stream.of(String[]) -&gt; Stream.of(String)???" />
+    <MESSAGE value="Thread test" />
+    <MESSAGE value="流扁平化案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="流扁平化案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -642,10 +727,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1588">
+          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3073">
+          <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lambda/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lambda/CollectorStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="160">
+          <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
