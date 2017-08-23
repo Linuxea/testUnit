@@ -108,6 +108,7 @@ public class CollectorStreamTest {
     /**
      * 机智如我
      * 今天任务完成
+     * 流的扁平化再扁平化
      */
     @Test
     public void test8(){
