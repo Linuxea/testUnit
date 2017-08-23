@@ -62,6 +62,20 @@ public class CollectorStreamTest {
 
     }
 
+    /**
+     * 实现一个String flatMap
+     */
+    @Test
+    public void myStringFlatMap(){
+        List<String[]> strings = Lists.newArrayList();
+        strings.add(new String[]{"linuxea","kimboo","jacky"});
+        strings.add(new String[]{"orange","fruit","pony"});
+        strings.add(new String[]{"miaoMi","linuxea","kimmy"});
+
+        Function<String[], Stream<String>> bibiString = stringArray -> Stream.of(stringArray);
+        strings.stream().flatMap(bibiString).forEach(System.out::println);
+    }
+
 
 
 }
