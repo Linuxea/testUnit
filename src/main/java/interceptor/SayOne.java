@@ -7,7 +7,7 @@ public class SayOne implements Interceptor {
 
 
     @Override
-    public void invode(Invocation invocation) {
+    public void interceptor(Invocation invocation) {
         System.out.println(" 1 1 1 ");
         invocation.invoke();
         System.out.println(" 1 1 1 ");

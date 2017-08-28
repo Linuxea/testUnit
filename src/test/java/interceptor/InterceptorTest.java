@@ -16,8 +16,9 @@ public class InterceptorTest {
             Method method = clazz.getMethod("testInterceptor", Invocation.class);
             Before before = method.getAnnotation(Before.class);
             Class<? extends Interceptor>[] interceptors = before.value();
-            for(int i = 0;i<interceptors.length;i++){
-                interceptors[i].newInstance().invode(invocation);
+            int i = 0;
+            while (i<interceptors.length){
+                interceptors[i++].newInstance().interceptor(invocation);
             }
         } catch (ReflectiveOperationException e) {
             e.printStackTrace();

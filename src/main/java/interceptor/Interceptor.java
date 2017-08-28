@@ -5,5 +5,6 @@ package interceptor;
  * create by linuxea on 2017/8/28 11:58
  **/
 public interface Interceptor {
-    void invode(Invocation invocation);
+
+    void interceptor(Invocation invocation);
 }
