@@ -25,7 +25,6 @@ public class InterceptorTest {
             }
             invocation.setInterceptors(interceptorList); //偷个懒 这里不用反射
             invocation.invoke();
-            method.invoke(testMe, invocation);
         } catch (ReflectiveOperationException e) {
             e.printStackTrace();
         }

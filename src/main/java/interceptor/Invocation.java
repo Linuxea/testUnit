@@ -20,11 +20,15 @@ public class Invocation {
         this.interceptors = interceptors;
     }
 
+    /**
+     * 主要代码
+     */
     public void invoke(){
         if(index < interceptors.size()){
             interceptors.get(index++).interceptor(this);
+        }else if(index++ == interceptors.size()){
+            System.out.println("我是核心");
         }
-        System.out.println("我是核心");
     }
 
 

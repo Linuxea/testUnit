@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b0ac2ae-b057-4296-b85a-9022af41adb2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/interceptor/SayFour.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/interceptor/Invocation.java" afterPath="$PROJECT_DIR$/src/main/java/interceptor/Invocation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/interceptor/TestMe.java" afterPath="$PROJECT_DIR$/src/main/java/interceptor/TestMe.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/interceptor/InterceptorTest.java" afterPath="$PROJECT_DIR$/src/test/java/interceptor/InterceptorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/interceptor/test.java" afterPath="$PROJECT_DIR$/src/main/java/interceptor/TestMe.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,14 +18,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InterceptorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InterceptorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/interceptor/InterceptorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            <state relative-caret-position="363">
+              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SayFour.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/SayFour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invocation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Invocation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/Invocation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="189">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="e#253#254#0" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
@@ -109,22 +120,12 @@
       <file leaf-file-name="TestMe.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/TestMe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="206">
+              <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
               <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Class.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="1780" column="18" lean-forward="false" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -177,9 +178,11 @@
         <option value="$PROJECT_DIR$/src/main/java/interceptor/SayOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/interceptor/SayThree.java" />
         <option value="$PROJECT_DIR$/src/main/java/interceptor/SayTwo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/Invocation.java" />
         <option value="$PROJECT_DIR$/src/main/java/interceptor/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interceptor/SayFour.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interceptor/TestMe.java" />
         <option value="$PROJECT_DIR$/src/test/java/interceptor/InterceptorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interceptor/Invocation.java" />
       </list>
     </option>
   </component>
@@ -751,31 +754,17 @@
       <option name="project" value="LOCAL" />
       <updated>1503895327701</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="再进一步">
+      <created>1503896317887</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1503896317887</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 41m 35s.xml">
-      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 51m 50s.xml">
-      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 52m 28s.xml">
-      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 53m 11s.xml">
-      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 54m 03s.xml">
-      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 54m 22s.xml">
-      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 54m 38s.xml">
-      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 56m 11s.xml">
       <configuration name="InterceptorTest.test1" configurationId="JUnit" />
     </history-entry>
@@ -783,6 +772,27 @@
       <configuration name="InterceptorTest.test1" configurationId="JUnit" />
     </history-entry>
     <history-entry file="InterceptorTest_test1 - 2017.08.28 at 12h 57m 17s.xml">
+      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 13h 41m 24s.xml">
+      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 13h 42m 20s.xml">
+      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 13h 43m 16s.xml">
+      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 13h 43m 28s.xml">
+      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 13h 44m 29s.xml">
+      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 13h 44m 45s.xml">
+      <configuration name="InterceptorTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InterceptorTest_test1 - 2017.08.28 at 13h 45m 21s.xml">
       <configuration name="InterceptorTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -849,7 +859,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="add httpclient dependency" />
     <MESSAGE value="test httpclient getMethod and postMethod" />
     <MESSAGE value="update" />
     <MESSAGE value="流的扁平化操作" />
@@ -874,22 +883,16 @@
     <MESSAGE value="update 结构变化" />
     <MESSAGE value="实现一个拦截器" />
     <MESSAGE value="奇怪的拦截器:/" />
-    <option name="LAST_COMMIT_MESSAGE" value="奇怪的拦截器:/" />
+    <MESSAGE value="再进一步" />
+    <option name="LAST_COMMIT_MESSAGE" value="再进一步" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="896" column="35" lean-forward="true" selection-start-line="896" selection-start-column="35" selection-end-line="896" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1249,36 +1252,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/TestMe.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/SayFour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="264">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/Invocation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/TestMe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="206">
+          <caret line="7" column="69" lean-forward="false" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
           <folding>
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/interceptor/InterceptorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        <state relative-caret-position="363">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/Invocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
           </folding>
         </state>
       </provider>

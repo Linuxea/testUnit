@@ -5,7 +5,7 @@ package interceptor;
  **/
 public class TestMe {
 
-    @Before({SayOne.class,SayTwo.class, SayThree.class})
+    @Before({SayOne.class,SayTwo.class, SayThree.class, SayFour.class})
     public void testInterceptor(Invocation invocation){
         invocation.invoke();
     }
