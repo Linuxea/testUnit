@@ -6,39 +6,41 @@ package design.chain;
  */
 public abstract class StringChain implements Chain<String> {
 
-	/**
-	 * 默认实现
-	 * @param string
-	 * @return
-	 */
-	@Override
-	public String doIt(String string) {
-		return string;
-	}
+    private StringChain next;
 
-	/**
-	 * 构造持续调用
-	 * @param s
-	 * @return
-	 */
-	@Override
-	public final String begin(String s) {
-		String string = this.doIt(s);
-		if(null != next){
-			string = next.begin(string);
-		}
-		return string;
-	}
+    /**
+     * 默认实现
+     *
+     * @param string
+     * @return
+     */
+    @Override
+    public String doIt(String string) {
+        return string;
+    }
 
-	private StringChain next;
+    /**
+     * 构造持续调用
+     *
+     * @param s
+     * @return
+     */
+    @Override
+    public final String begin(String s) {
+        String string = this.doIt(s);
+        if (null != next) {
+            string = next.begin(string);
+        }
+        return string;
+    }
 
-	public StringChain getNext() {
-		return next;
-	}
+    public StringChain getNext() {
+        return next;
+    }
 
-	public void setNext(StringChain next) {
-		this.next = next;
-	}
+    public void setNext(StringChain next) {
+        this.next = next;
+    }
 
 
 }

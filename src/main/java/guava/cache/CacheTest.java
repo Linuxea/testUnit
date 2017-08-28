@@ -3,6 +3,7 @@ package guava.cache;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
 import org.junit.Test;
+
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
@@ -11,23 +12,23 @@ import java.util.concurrent.TimeUnit;
  */
 public class CacheTest {
 
-	@Test
-	public void test1() throws InterruptedException, ExecutionException {
-		Cache cache =
-				CacheBuilder.newBuilder()
-						.softValues()
-						.maximumSize(100)
-						.expireAfterWrite(5, TimeUnit.SECONDS)
-						.build();
-		cache.put("name", "linuxea");
-		cache.put("sex","boy");
-		cache.put("age", 11);
-		int i =0;
-		while (++i>5){
-			TimeUnit.SECONDS.sleep(1);
-			Object obj = cache.get("name", () -> "ok");
-			System.out.println(obj);
-		}
-	}
+    @Test
+    public void test1() throws InterruptedException, ExecutionException {
+        Cache cache =
+                CacheBuilder.newBuilder()
+                        .softValues()
+                        .maximumSize(100)
+                        .expireAfterWrite(5, TimeUnit.SECONDS)
+                        .build();
+        cache.put("name", "linuxea");
+        cache.put("sex", "boy");
+        cache.put("age", 11);
+        int i = 0;
+        while (++i > 5) {
+            TimeUnit.SECONDS.sleep(1);
+            Object obj = cache.get("name", () -> "ok");
+            System.out.println(obj);
+        }
+    }
 
 }

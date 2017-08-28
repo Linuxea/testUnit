@@ -7,8 +7,8 @@ import com.google.common.base.Joiner;
  */
 public class JoinFilter extends StringChain {
 
-	@Override
-	public String doIt(String string) {
-		return Joiner.on("-").join(string.replaceAll("\\s+","").split(""));
-	}
+    @Override
+    public String doIt(String string) {
+        return Joiner.on("-").join(string.replaceAll("\\s+", "").split(""));
+    }
 }

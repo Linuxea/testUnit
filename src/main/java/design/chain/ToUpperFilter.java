@@ -7,8 +7,8 @@ package design.chain;
 public class ToUpperFilter extends StringChain {
 
 
-	@Override
-	public String doIt(String string) {
-		return string.toUpperCase();
-	}
+    @Override
+    public String doIt(String string) {
+        return string.toUpperCase();
+    }
 }

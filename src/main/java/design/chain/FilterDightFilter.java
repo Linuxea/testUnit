@@ -9,8 +9,8 @@ import com.google.common.base.CharMatcher;
 public class FilterDightFilter extends StringChain {
 
 
-	@Override
-	public String doIt(String t) {
-		return CharMatcher.digit().removeFrom(t);
-	}
+    @Override
+    public String doIt(String t) {
+        return CharMatcher.digit().removeFrom(t);
+    }
 }

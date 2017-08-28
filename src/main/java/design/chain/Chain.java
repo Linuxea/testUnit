@@ -6,8 +6,8 @@ package design.chain;
  */
 public interface Chain<T> {
 
-	T doIt(T t);
+    T doIt(T t);
 
-	T begin(T t);
+    T begin(T t);
 
 }
