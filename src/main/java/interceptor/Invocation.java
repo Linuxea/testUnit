@@ -1,7 +1,6 @@
 package interceptor;
 
 import java.lang.reflect.Method;
-import java.util.List;
 
 /**
  * 递归执行拦截器
@@ -10,7 +9,7 @@ import java.util.List;
 public class Invocation {
 
     private Class<? extends Controller> controllerClazz;
-    private List<Interceptor> interceptors;
+    private Class<? extends Interceptor>[] interceptors;
     private String methodName;
     private Method method;
     private int index = 0;
@@ -48,11 +47,11 @@ public class Invocation {
         this.controllerClazz = controllerClazz;
     }
 
-    public List<Interceptor> getInterceptors() {
+    public Class<? extends Interceptor>[] getInterceptors() {
         return interceptors;
     }
 
-    public void setInterceptors(List<Interceptor> interceptors) {
+    public void setInterceptors(Class<? extends Interceptor>[] interceptors) {
         this.interceptors = interceptors;
     }
 
@@ -60,9 +59,15 @@ public class Invocation {
      * 主要代码
      */
     public void invoke(){
-        if(index < interceptors.size()){
-            interceptors.get(index++).interceptor(this);
-        }else if(index++ == interceptors.size()){
+        if(index < interceptors.length){
+            try {
+                interceptors[index++].newInstance().interceptor(this);
+            } catch (InstantiationException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+        }else if(index++ == interceptors.length){
             try {
                 Controller controller = controllerClazz.newInstance();
                 controllerClazz.getMethod(methodName).invoke(controller); // 无参构造器
