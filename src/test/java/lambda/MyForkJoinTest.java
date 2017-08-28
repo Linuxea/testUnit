@@ -16,28 +16,28 @@ public class MyForkJoinTest {
     private long[] longs1;
 
     @Before
-    public void before(){
-        longs1 = LongStream.rangeClosed(0,LENGTH).toArray();
+    public void before() {
+        longs1 = LongStream.rangeClosed(0, LENGTH).toArray();
     }
 
     @Test
-    public void test0(){
+    public void test0() {
         long sum = 0;
-        for(int i = 0;i<longs1.length;i++){
+        for (int i = 0; i < longs1.length; i++) {
             sum += longs1[i];
         }
         System.out.println(sum);
     }
 
     @Test
-    public void test1(){
+    public void test1() {
         System.out.println(Arrays.stream(longs1).sum());
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         ForkJoinPool forkJoinPool = new ForkJoinPool(4);
-        ForkJoinTask<Long> forkJoinTask = new MyForkJoin(longs1,0,longs1.length);
+        ForkJoinTask<Long> forkJoinTask = new MyForkJoin(longs1, 0, longs1.length);
         long result = forkJoinPool.invoke(forkJoinTask);
         System.out.println(result);
     }

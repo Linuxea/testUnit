@@ -20,17 +20,31 @@ public class MyForkJoin extends RecursiveTask<Long> {
         this.end = end;
     }
 
+    public static void main(String[] argc) {
+//        LongUnaryOperator longUnaryOperator = lon -> (Long.parseLong((int)( Math.random()*99999)+""));
+//        long[] longs = LongStream.iterate(0, longUnaryOperator).limit(99999).toArray();
 
+        long[] longs1 = new long[9999999];
+        for (int i = 0; i < 9999999; i++) {
+            longs1[i] = i;
+        }
+
+        ForkJoinPool forkJoinPool = new ForkJoinPool(4);
+        ForkJoinTask<Long> forkJoinTask = new MyForkJoin(longs1, 0, longs1.length);
+        long result = forkJoinPool.invoke(forkJoinTask);
+
+        System.out.println(result);
+    }
 
     @Override
     protected Long compute() {
-        if(end - start <= SPACING){
+        if (end - start <= SPACING) {
             long sum = 0L;
-            for(int i = start;i < end; i++){
+            for (int i = start; i < end; i++) {
                 sum += longs[i];
             }
             return sum;
-        }else{
+        } else {
             int middle = (end + start) / 2;
             MyForkJoin leftJoin = new MyForkJoin(this.longs, start, middle);
             MyForkJoin rightJoin = new MyForkJoin(this.longs, middle, end); //end 是不会算进去的
@@ -41,22 +55,6 @@ public class MyForkJoin extends RecursiveTask<Long> {
 //            System.out.println("result = " + leftJoinResult + " + " + rightJoinResult + " ==> " + result);
             return result;
         }
-    }
-
-    public static void main(String[] argc){
-//        LongUnaryOperator longUnaryOperator = lon -> (Long.parseLong((int)( Math.random()*99999)+""));
-//        long[] longs = LongStream.iterate(0, longUnaryOperator).limit(99999).toArray();
-
-        long[] longs1 = new long[9999999];
-        for(int i=0;i<9999999;i++){
-            longs1[i] = i;
-        }
-
-        ForkJoinPool forkJoinPool = new ForkJoinPool(4);
-        ForkJoinTask<Long> forkJoinTask = new MyForkJoin(longs1,0,longs1.length);
-        long result = forkJoinPool.invoke(forkJoinTask);
-
-        System.out.println(result);
     }
 
 }

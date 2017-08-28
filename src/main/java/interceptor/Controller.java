@@ -6,8 +6,8 @@ package interceptor;
  **/
 public class Controller {
 
-    @Before({SayOne.class,SayTwo.class, SayThree.class, SayFour.class})
-    public void hello(){
+    @Before({SayOne.class, SayTwo.class, SayThree.class, SayFour.class})
+    public void hello() {
         System.out.println("this is from controller hello");
     }
 

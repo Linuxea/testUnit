@@ -1,6 +1,9 @@
 package nettynio;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
@@ -14,7 +17,13 @@ public class TraditionalServerSocker {
     private volatile boolean on = true;
     private ServerSocket serverSocket;
 
-    public void off(){
+    public static void main(String[] argc) throws IOException {
+        TraditionalServerSocker socket = new TraditionalServerSocker();
+        socket.init();
+        //socket.off();
+    }
+
+    public void off() {
         on = false;
     }
 
@@ -22,60 +31,53 @@ public class TraditionalServerSocker {
         ExecutorService executorService = Executors.newCachedThreadPool();
         try {
             serverSocket = new ServerSocket(9090);
-            while(on){
+            while (on) {
                 Socket socket = serverSocket.accept();
                 System.out.println("coming a new guy:" + socket.getRemoteSocketAddress());
                 executorService.execute(new Handle(socket));
             }
-        }finally {
+        } finally {
             executorService.shutdown();
         }
     }
 
-    private static class Handle implements  Runnable{
+    private static class Handle implements Runnable {
 
-        private BufferedReader bufferedReader=null;
+        private BufferedReader bufferedReader = null;
         private PrintWriter printWriter = null;
         private String line;
         private Socket socket;
-        public Handle(Socket socket){
+
+        public Handle(Socket socket) {
             this.socket = socket;
         }
 
         @Override
-        public void run(){
+        public void run() {
             try {
-                bufferedReader= new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                 printWriter = new PrintWriter(socket.getOutputStream());
-                while (true){
+                while (true) {
                     line = bufferedReader.readLine();
-                    if(null != line){
+                    if (null != line) {
                         System.out.println("received:" + line);
                         printWriter.write("return:" + line.getBytes());
                         printWriter.write("\n");
                         printWriter.flush();
                     }
                 }
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
-            }finally {
+            } finally {
                 try {
                     printWriter.close();
                     bufferedReader.close();
-                }catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
 
         }
-    }
-
-
-
-    public static void main(String[] argc) throws IOException {
-        TraditionalServerSocker socket = new TraditionalServerSocker();
-        socket.init();
-        //socket.off();
     }
 
 }

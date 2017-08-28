@@ -8,28 +8,28 @@ import org.junit.Test;
  */
 public class OptionDemo {
 
-	@Test
-	public void test1(){
-		Object optional = Optional.fromNullable(null).or("fuck");
-		System.out.println(optional);
-	}
+    @Test
+    public void test1() {
+        Object optional = Optional.fromNullable(null).or("fuck");
+        System.out.println(optional);
+    }
 
-	@Test
-	public void test2(){
-		String empty = String.valueOf("");
-		String empty2 = String.valueOf("");
-		System.out.println(empty == empty2);
-		System.out.println("" == "");
-		System.out.println(returnEmpty() == returnEmpty2());
-	}
+    @Test
+    public void test2() {
+        String empty = String.valueOf("");
+        String empty2 = String.valueOf("");
+        System.out.println(empty == empty2);
+        System.out.println("" == "");
+        System.out.println(returnEmpty() == returnEmpty2());
+    }
 
-	private String returnEmpty(){
-		return "";
-	}
+    private String returnEmpty() {
+        return "";
+    }
 
-	private String returnEmpty2(){
-		return "";
-	}
+    private String returnEmpty2() {
+        return "";
+    }
 
 
 }

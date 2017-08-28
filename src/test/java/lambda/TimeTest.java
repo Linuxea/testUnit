@@ -2,6 +2,7 @@ package lambda;
 
 import org.junit.Test;
 import org.testng.collections.Lists;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -15,11 +16,11 @@ import java.util.List;
 public class TimeTest {
 
     @Test
-    public void test1(){
-        LocalDate start = LocalDate.of(2017,8,1);
-        LocalDate end = LocalDate.of(2017,8,10);
+    public void test1() {
+        LocalDate start = LocalDate.of(2017, 8, 1);
+        LocalDate end = LocalDate.of(2017, 8, 10);
         List<LocalDate> localDateList = Lists.newArrayList();
-        while (start.isBefore(end)){
+        while (start.isBefore(end)) {
             start = start.plusDays(1);
             localDateList.add(start);
         }
@@ -29,14 +30,14 @@ public class TimeTest {
     }
 
     @Test
-    public void test2(){
+    public void test2() {
         System.out.println(new Date().toString());
         String dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss").format(LocalDateTime.now());
         System.out.println(dateTimeFormatter);
     }
 
     @Test
-    public void test3(){
+    public void test3() {
 
         LocalDate localDate = LocalDate.of(2017, 8, 23);
         int year = localDate.get(ChronoField.YEAR);
@@ -58,7 +59,7 @@ public class TimeTest {
 
 
     @Test
-    public void test4(){
+    public void test4() {
         LocalDateTime localDateTime = LocalDateTime.now();
         System.out.println(localDateTime.getSecond());
 

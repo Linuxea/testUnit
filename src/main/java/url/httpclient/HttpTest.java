@@ -1,6 +1,9 @@
 package url.httpclient;
 
-import org.apache.commons.httpclient.*;
+import org.apache.commons.httpclient.Header;
+import org.apache.commons.httpclient.HttpClient;
+import org.apache.commons.httpclient.HttpStatus;
+import org.apache.commons.httpclient.NameValuePair;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.methods.PostMethod;
 import org.junit.Test;
@@ -30,16 +33,15 @@ public class HttpTest {
         System.out.print(stateCode);
         System.out.print(haha);
 
-        try(BufferedReader reader = new BufferedReader(new InputStreamReader(getMethod.getResponseBodyAsStream()));){
-            String line ;
-            while(null != (line = reader.readLine() )){
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(getMethod.getResponseBodyAsStream()));) {
+            String line;
+            while (null != (line = reader.readLine())) {
                 System.out.println(line);
             }
-        }finally {
+        } finally {
             getMethod.releaseConnection();
         }
     }
-
 
 
     @Test
@@ -47,8 +49,8 @@ public class HttpTest {
         String choiceUrl = "http://www.baidu.com";
         HttpClient httpClient = new HttpClient();
         PostMethod postMethod = new PostMethod(choiceUrl);
-        NameValuePair[] nameValuePairs = { new NameValuePair("username","username"),
-        new NameValuePair("password","admin")};
+        NameValuePair[] nameValuePairs = {new NameValuePair("username", "username"),
+                new NameValuePair("password", "admin")};
         postMethod.setRequestBody(nameValuePairs);
         int stateCode = 0;
         try {

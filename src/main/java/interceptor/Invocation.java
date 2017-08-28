@@ -58,8 +58,8 @@ public class Invocation {
     /**
      * 主要代码
      */
-    public void invoke(){
-        if(index < interceptors.length){
+    public void invoke() {
+        if (index < interceptors.length) {
             try {
                 interceptors[index++].newInstance().interceptor(this);
             } catch (InstantiationException e) {
@@ -67,7 +67,7 @@ public class Invocation {
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
-        }else if(index++ == interceptors.length){
+        } else if (index++ == interceptors.length) {
             try {
                 Controller controller = controllerClazz.newInstance();
                 controllerClazz.getMethod(methodName).invoke(controller); // 无参构造器

@@ -1,12 +1,13 @@
 package interceptor;
 
 import org.junit.Test;
+
 import java.lang.reflect.Method;
 
 public class InterceptorTest {
 
     @Test
-    public void test1(){
+    public void test1() {
 //        testInterceptor(); //需要做代理
         try {
             Class<? extends Controller> controllerClazz = (Class<? extends Controller>) Class.forName("interceptor.Controller");

@@ -2,7 +2,10 @@ package file.action;
 
 import org.testng.collections.Lists;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.util.Comparator;
 import java.util.List;
 import java.util.UUID;
@@ -23,12 +26,12 @@ public class FileCombine {
             @Override
             public int compare(File o1, File o2) {
                 String o1_suffix
-                        = o1.getName().substring(o1.getName().lastIndexOf("_")+1);
+                        = o1.getName().substring(o1.getName().lastIndexOf("_") + 1);
                 String o2_suffix
-                        = o2.getName().substring(o2.getName().lastIndexOf("_")+1);
-                if(Integer.parseInt(o1_suffix) > Integer.parseInt(o2_suffix)){
+                        = o2.getName().substring(o2.getName().lastIndexOf("_") + 1);
+                if (Integer.parseInt(o1_suffix) > Integer.parseInt(o2_suffix)) {
                     return 1;
-                }else if(Integer.parseInt(o1_suffix) == Integer.parseInt(o2_suffix)){
+                } else if (Integer.parseInt(o1_suffix) == Integer.parseInt(o2_suffix)) {
                     return 0;
                 }
                 return -1;
@@ -38,7 +41,7 @@ public class FileCombine {
 
         List<byte[]> byteList = Lists.newArrayList(); //集成所有字节
 
-        for(File temp : fileList){
+        for (File temp : fileList) {
             System.out.println("current file name:" + temp.getName());
             FileInputStream is = new FileInputStream(temp);
             DataInputStream ds = new DataInputStream(is);
@@ -49,11 +52,11 @@ public class FileCombine {
                 byteList.add(b);
             }*/
 
-            for(;;){
+            for (; ; ) {
                 byte[] b = new byte[FileConstant.size]; //每次都是新的 杜绝有最后一次数据覆盖不全及其它情况
-                if(-1 != (ds.read(b))){
+                if (-1 != (ds.read(b))) {
                     byteList.add(b);
-                }else{
+                } else {
                     break;
                 }
             }
@@ -61,12 +64,12 @@ public class FileCombine {
             is.close();
         }
 
-        File file = new File(baseFilePath + "\\" + UUID.randomUUID() +  ".txt");
+        File file = new File(baseFilePath + "\\" + UUID.randomUUID() + ".txt");
 
         System.err.println("all byte size:" + byteList.size());
 
-        FileOutputStream out  = new FileOutputStream(file, true);
-        for(byte[] bytes : byteList){
+        FileOutputStream out = new FileOutputStream(file, true);
+        for (byte[] bytes : byteList) {
             out.write(bytes);
             System.out.println("wrinting...");
         }
@@ -74,11 +77,9 @@ public class FileCombine {
         out.close();
 
 
-
-
     }
 
-    public static void main(String[] argc){
+    public static void main(String[] argc) {
         try {
             FileCombine.combine("e39bd053-c028-486f-bc85-f598985dca86_the");
         } catch (Exception e) {

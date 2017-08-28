@@ -10,11 +10,11 @@ import java.util.List;
  */
 public class ReflectTest {
 
-	@Test
-	public void test(){
-		List<String> strings = Lists.newArrayList("a","b","c","d");
-		List<Integer> integers = Lists.newArrayList(1,2,3,4,5);
-		System.out.println(strings.getClass().isAssignableFrom(integers.getClass())); //true
-	}
+    @Test
+    public void test() {
+        List<String> strings = Lists.newArrayList("a", "b", "c", "d");
+        List<Integer> integers = Lists.newArrayList(1, 2, 3, 4, 5);
+        System.out.println(strings.getClass().isAssignableFrom(integers.getClass())); //true
+    }
 
 }

@@ -6,9 +6,9 @@ package design.chain;
  */
 public class AppendGoodFilter extends StringChain {
 
-	@Override
-	public String doIt(String t) {
-		t += " filter end!";
-		return t;
-	}
+    @Override
+    public String doIt(String t) {
+        t += " filter end!";
+        return t;
+    }
 }
