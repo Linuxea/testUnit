@@ -1,5 +1,6 @@
 package interceptor;
 
+import java.lang.reflect.Method;
 import java.util.List;
 
 /**
@@ -8,9 +9,44 @@ import java.util.List;
  **/
 public class Invocation {
 
+    private Class<? extends Controller> controllerClazz;
     private List<Interceptor> interceptors;
+    private String methodName;
+    private Method method;
     private int index = 0;
 
+
+    public String getMethodName() {
+        return methodName;
+    }
+
+    public void setMethodName(String methodName) {
+        this.methodName = methodName;
+    }
+
+    public Method getMethod() {
+        return method;
+    }
+
+    public void setMethod(Method method) {
+        this.method = method;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
+    }
+
+    public Class<? extends Controller> getControllerClazz() {
+        return controllerClazz;
+    }
+
+    public void setControllerClazz(Class<? extends Controller> controllerClazz) {
+        this.controllerClazz = controllerClazz;
+    }
 
     public List<Interceptor> getInterceptors() {
         return interceptors;
@@ -27,8 +63,14 @@ public class Invocation {
         if(index < interceptors.size()){
             interceptors.get(index++).interceptor(this);
         }else if(index++ == interceptors.size()){
-            System.out.println("我是核心");
+            try {
+                Controller controller = controllerClazz.newInstance();
+                controllerClazz.getMethod(methodName).invoke(controller); // 无参构造器
+            } catch (ReflectiveOperationException e) {
+                e.printStackTrace();
+            }
         }
+
     }
 
 
