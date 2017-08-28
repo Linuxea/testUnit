@@ -15,7 +15,6 @@ public class InterceptorTest {
 
             Invocation invocation = (Invocation) Class.forName("interceptor.Invocation").newInstance();
             Class<?> clazz = Class.forName("interceptor.TestMe");
-            TestMe testMe = (TestMe) clazz.newInstance();
             Method method = clazz.getMethod("testInterceptor", Invocation.class);
             Before before = method.getAnnotation(Before.class);
             Class<? extends Interceptor>[] interceptors = before.value();
