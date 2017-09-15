@@ -6,8 +6,13 @@ package interceptor;
 public class SayFour implements Interceptor {
     @Override
     public void interceptor(Invocation invocation) {
-        System.out.println(" 4 4 4 ");
-        invocation.invoke();
-        System.out.println(" 4 4 4 ");
+    	try{
+			System.out.println(" 4 4 4 ");
+			invocation.invoke();
+			System.out.println(" 4 4 4 ");
+		}
+        finally {
+			System.out.println("我是SayFour的finally");
+		}
     }
 }
