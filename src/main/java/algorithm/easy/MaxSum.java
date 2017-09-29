@@ -1,5 +1,6 @@
 package algorithm.easy;
 
+// 动态规划
 
 public class MaxSum {
 
