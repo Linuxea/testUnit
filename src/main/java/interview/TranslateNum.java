@@ -48,7 +48,7 @@ public class TranslateNum {
 
 	
 	/**
-	 * 删除最后一位“零”
+	 * 从倒数开始删除连续的零
 	 * @param temp
 	 * @return
 	 */
