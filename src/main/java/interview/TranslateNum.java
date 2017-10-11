@@ -1,8 +1,8 @@
 package interview;
 
-import java.util.Map;
-
 import com.google.common.collect.Maps;
+
+import java.util.Map;
 
 /**
  * 一道面试题
@@ -55,8 +55,10 @@ public class TranslateNum {
 	private static String postCheck(StringBuilder temp) {
 		char[] arr = temp.toString().toCharArray();
 		int i = arr.length - 1 ;
-		for(;i>0 && Character.valueOf(arr[i--]).toString().equals("零"););
-		return temp.subSequence(0, i+1).toString();
+        for (int k = i; i > 0 && Character.valueOf(arr[k--]).toString().equals("零"); ) {
+            i = k; // tip
+        }
+        return temp.subSequence(0, i+1).toString();
 	}
 
 	/**
@@ -76,7 +78,7 @@ public class TranslateNum {
 	}
 	
 	public static void main(String[] args) {
-		TranslateNum.sc(36);
-	}
+        TranslateNum.sc(39);
+    }
 	
 }
