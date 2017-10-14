@@ -1,4 +1,4 @@
-package interview;
+package interview.baturu;
 
 import com.google.common.collect.Maps;
 
