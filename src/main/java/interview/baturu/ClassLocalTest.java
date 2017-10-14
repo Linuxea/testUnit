@@ -1,5 +1,7 @@
 package interview.baturu;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * 成员变量非静态变量的多线程问题 类似于 SimpleDateFormat
  * Created by Linuxea on 10/14/17.
@@ -17,6 +19,11 @@ public class ClassLocalTest {
             int temp = i;
             new Thread(() -> {
                 classLocalTest.change(temp);
+                try {
+                    TimeUnit.MILLISECONDS.sleep(1);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 classLocalTest.print();
             }).start();
 
