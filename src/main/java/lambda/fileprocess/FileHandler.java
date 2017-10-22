@@ -1,9 +1,6 @@
 package lambda.fileprocess;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 
 /**
  * key login
@@ -12,16 +9,16 @@ import java.io.InputStreamReader;
  *
  */
 public class FileHandler {
-	
+
 	public void fileProcess(Process process) throws IOException {
 		
 		// try-with-resources
 		try(
-			InputStream is = this.getClass().getResourceAsStream("ok.txt");
-			InputStreamReader fileInputStream = new InputStreamReader(is);
-			BufferedReader bufferedReader = new BufferedReader(fileInputStream);
-		){
-			process.believe(bufferedReader);
+                InputStream is = new FileInputStream("/home/linuxea/Documents/testUnit/src/main/java/lambda/fileprocess/ok.txt");
+                InputStreamReader fileInputStream = new InputStreamReader(is);
+                BufferedReader bufferedReader = new BufferedReader(fileInputStream)
+        ) {
+            process.believe(bufferedReader);
 		}
 	}
 }
