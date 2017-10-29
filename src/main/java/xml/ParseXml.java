@@ -43,11 +43,11 @@ public class ParseXml {
 
 
     public static void main(String[] args) {
-        try {
-            ParseXml.parse();
-        } catch (DocumentException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            ParseXml.parse();
+//        } catch (DocumentException e) {
+//            e.printStackTrace();
+//        }
     }
 
 }
