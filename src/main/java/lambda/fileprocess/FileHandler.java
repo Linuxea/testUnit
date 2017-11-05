@@ -14,7 +14,7 @@ public class FileHandler {
 		
 		// try-with-resources
 		try(
-                InputStream is = new FileInputStream("/home/linuxea/Documents/testUnit/src/main/java/lambda/fileprocess/ok.txt");
+                InputStream is = new FileInputStream("/home/linuxea/git_home/testUnit/src/main/java/lambda/fileprocess/ok.txt");
                 InputStreamReader fileInputStream = new InputStreamReader(is);
                 BufferedReader bufferedReader = new BufferedReader(fileInputStream)
         ) {
