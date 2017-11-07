@@ -2,6 +2,7 @@ package threads;
 
 /**
  * 异常调用信息栈查看
+ * 异常是执行单位是线程,异常信息栈是线程所执行的方法调用栈
  */
 public class MethodInvokeStack {
 
