@@ -1,55 +1,66 @@
 package lock;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+
+/**
+ * 读写销赃的测试
+ */
 public class ReadWriteLockTest {
 
-    private ReentrantLock reentrantLock = new ReentrantLock();
+    private ReadWriteLock readWriteLock = new ReentrantReadWriteLock();
+    private Lock readLock = readWriteLock.readLock();
+    private Lock writeLock = readWriteLock.writeLock();
 
     public static void main(String[] args) {
+
         ReadWriteLockTest readWriteLockTest = new ReadWriteLockTest();
-        new Thread(() -> {
-            try {
-                readWriteLockTest.test();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }, "test-1").start();
+        ExecutorService executorService = Executors.newCachedThreadPool();
 
-        new Thread(() -> {
-            try {
-                readWriteLockTest.test2();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }, "test-2").start();
+        for (int i = 0; i < 10; i++) {
+            final int j = i;
+            executorService.execute(() -> {
+                try {
+                    if (j % 2 == 0) {
+                        readWriteLockTest.read();
+                    } else {
+                        readWriteLockTest.write();
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            });
+        }
+
+
+        executorService.shutdown();
+
     }
 
-    public void test() throws InterruptedException {
-        ReentrantLock reentrantLock = this.reentrantLock;
-        Condition condition = reentrantLock.newCondition();
-        reentrantLock.lock();
-        System.out.println(Thread.currentThread().getName() + " lock");
+    public void read() throws InterruptedException {
+        readLock.lock();
         try {
-            // await 将释释放锁  如果没有时间限制将一直
-            condition.await(5, TimeUnit.SECONDS);
+            System.out.println("我是读的");
         } finally {
-            reentrantLock.unlock();
+            readLock.unlock();
         }
+
     }
 
-    public void test2() throws InterruptedException {
-        ReentrantLock reentrantLock = this.reentrantLock;
-        Condition condition = reentrantLock.newCondition();
-        reentrantLock.lock();
-        System.out.println(Thread.currentThread().getName() + " lock");
+    public void write() throws InterruptedException {
+        writeLock.lock();
         try {
-            condition.await(5, TimeUnit.SECONDS);
+            System.out.println("I am a write lock, that blothers write locks and read locks");
+            TimeUnit.SECONDS.sleep(5);
         } finally {
-            reentrantLock.unlock();
+            writeLock.unlock();
         }
+
     }
 
 }
