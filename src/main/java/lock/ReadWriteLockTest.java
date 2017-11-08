@@ -1,5 +1,6 @@
 package lock;
 
+import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -22,11 +23,12 @@ public class ReadWriteLockTest {
         ReadWriteLockTest readWriteLockTest = new ReadWriteLockTest();
         ExecutorService executorService = Executors.newCachedThreadPool();
 
+        final Random random = new Random();
+
         for (int i = 0; i < 10; i++) {
-            final int j = i;
             executorService.execute(() -> {
                 try {
-                    if (j % 2 == 0) {
+                    if (random.nextInt(2) % 2 == 0) {
                         readWriteLockTest.read();
                     } else {
                         readWriteLockTest.write();
@@ -55,7 +57,7 @@ public class ReadWriteLockTest {
     public void write() throws InterruptedException {
         writeLock.lock();
         try {
-            System.out.println("I am a write lock, that blothers write locks and read locks");
+            System.out.println("I am a write lock, that block others write locks and read locks");
             TimeUnit.SECONDS.sleep(5);
         } finally {
             writeLock.unlock();
