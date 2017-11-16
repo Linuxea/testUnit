@@ -13,12 +13,12 @@ public class FileStream {
 
     public static void main(String[] args) throws IOException {
 
-        Path path = Paths.get("/home/linuxea/Documents/testUnit/src/main/java/lambda/streamtest/FileStream.java");
+        Path path = Paths.get("/home/linuxea/git_home/testUnit/src/main/java/lambda/streamtest/FileStream.java");
         try (Stream<String> stringStream = Files.lines(path)) {
             stringStream.forEach(System.out::println);
         }
 
-        Path rootPath = Paths.get("/home/linuxea/Documents/testUnit/src/main/java/");
+        Path rootPath = Paths.get("/home/linuxea/git_home/testUnit/src/main/java/");
         System.out.println(rootPath.toAbsolutePath().toString());
         Files.walk(rootPath).forEach(System.out::println);
 
