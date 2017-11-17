@@ -35,11 +35,11 @@ public class CreateXml {
 
 
     public static void main(String[] args) {
-//        try {
-//            CreateXml.create();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            CreateXml.create();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
