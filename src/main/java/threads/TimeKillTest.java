@@ -18,12 +18,7 @@ public class TimeKillTest {
     public static void main(String[] args) {
 
         for (int i = 0; i < RUN_TIMES; i++) {
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    System.out.println("happy go");
-                }
-            }).start();
+            new Thread(() -> System.out.println("happy go")).start();
         }
 
         try {
