@@ -5,15 +5,15 @@ package netStedClassTest;
  */
 public class NetstedClass {
 
-    public static void main(String[] args) {
-        NetstedClass.Net net = new NetstedClass().new Net();
-        net.say();
-    }
+	public static void main(String[] args) {
+		NetstedClass.Net net = new NetstedClass().new Net();
+		net.say();
+	}
 
-    private class Net {
-        private void say() {
-            System.out.println("hello");
-        }
-    }
+	private class Net {
+		private void say() {
+			System.out.println("hello");
+		}
+	}
 
 }

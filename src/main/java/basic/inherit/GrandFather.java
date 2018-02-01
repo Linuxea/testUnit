@@ -8,10 +8,10 @@ package basic.inherit;
  */
 public class GrandFather implements Person {
 
-    @Override
-    public void say() {
-        System.out.println("我是爷爷");
-    }
+	@Override
+	public void say() {
+		System.out.println("我是爷爷");
+	}
 
 
 }

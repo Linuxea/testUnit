@@ -12,6 +12,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface Before {
 
-    Class<? extends Interceptor>[] value();
+	Class<? extends Interceptor>[] value();
 
 }

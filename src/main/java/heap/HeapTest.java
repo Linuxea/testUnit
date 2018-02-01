@@ -2,8 +2,8 @@ package heap;
 
 public class HeapTest {
 
-    public void build() {
+	public void build() {
 
-    }
+	}
 
 }

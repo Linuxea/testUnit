@@ -6,12 +6,12 @@ package lambda.streamtest;
  */
 public class StringStream {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        String string = "I love you very much while you don't love me";
-        // chars return IntStream
-        string.chars().forEach(System.out::println);
+		String string = "I love you very much while you don't love me";
+		// chars return IntStream
+		string.chars().forEach(System.out::println);
 
-    }
+	}
 
 }

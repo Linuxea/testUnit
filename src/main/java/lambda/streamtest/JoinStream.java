@@ -10,11 +10,11 @@ import java.util.stream.Collectors;
  * Created by Linuxea on 10/28/17.
  */
 public class JoinStream {
-
-    public static void main(String[] args) {
-
-        List<String> stringList = Lists.newArrayList("I", "love", "you", "very", "much");
-        String string = stringList.stream().collect(Collectors.joining(" "));
-        System.out.println(string);
-    }
+	
+	public static void main(String[] args) {
+		
+		List<String> stringList = Lists.newArrayList("I", "love", "you", "very", "much");
+		String string = stringList.stream().collect(Collectors.joining(" "));
+		System.out.println(string);
+	}
 }

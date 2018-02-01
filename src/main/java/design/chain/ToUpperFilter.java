@@ -5,10 +5,10 @@ package design.chain;
  * String 过滤器之变大写
  */
 public class ToUpperFilter extends StringChain {
-
-
-    @Override
-    public String doIt(String string) {
-        return string.toUpperCase();
-    }
+	
+	
+	@Override
+	public String doIt(String string) {
+		return string.toUpperCase();
+	}
 }

@@ -1,28 +1,28 @@
 package lambda.fileprocess;
 
-import java.io.IOException;
-
 import org.junit.Test;
+
+import java.io.IOException;
 
 /**
  * 文件处理函数式测试
- * @author linuxea.lin
  *
+ * @author linuxea.lin
  */
 public class FileHandlerTest {
-
+	
 	
 	@Test
-	public void test() throws IOException{
+	public void test() throws IOException {
 		
 		new FileHandler().fileProcess(br -> {
-			try{
+			try {
 				StringBuilder sb = new StringBuilder(10);
 				sb.append(br.readLine());
 				sb.append("\n");
 				sb.append(br.readLine());
 				System.out.println(sb.toString());
-			}catch (Exception e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		});

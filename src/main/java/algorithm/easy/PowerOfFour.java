@@ -8,16 +8,16 @@ package algorithm.easy;
  * whether it is a power of 4.
  **/
 public class PowerOfFour {
-    public static void main(String[] args) {
-        if (new PowerOfFour().isPowerOfFour(16)) {
-            System.out.println("yes");
-        }
-    }
-
-    public boolean isPowerOfFour(int num) {
-
-
-        return false;
-
-    }
+	public static void main(String[] args) {
+		if (new PowerOfFour().isPowerOfFour(16)) {
+			System.out.println("yes");
+		}
+	}
+	
+	public boolean isPowerOfFour(int num) {
+		
+		
+		return false;
+		
+	}
 }

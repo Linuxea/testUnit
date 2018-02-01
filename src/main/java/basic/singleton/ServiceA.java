@@ -5,9 +5,9 @@ package basic.singleton;
  */
 
 public class ServiceA {
-    
-    public void say() {
-        System.out.println("I am service a");
-    }
+
+	public void say() {
+		System.out.println("I am service a");
+	}
 
 }

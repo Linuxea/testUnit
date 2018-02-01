@@ -5,24 +5,24 @@ package basic.init;
  */
 public class InitUnit {
 
-    static {
-        System.out.println("static");
-    }
+	static {
+		System.out.println("static");
+	}
 
-    {
-        // only mean before constructor
-        System.out.println("block");
-    }
+	{
+		// only mean before constructor
+		System.out.println("block");
+	}
 
-    public InitUnit() {
-        System.out.println("constructor");
-    }
+	public InitUnit() {
+		System.out.println("constructor");
+	}
 
-    public static void main(String[] args) {
-        System.out.println("begin");
-        new InitUnit();
-        new InitUnit();
-        System.out.println("end");
-    }
+	public static void main(String[] args) {
+		System.out.println("begin");
+		new InitUnit();
+		new InitUnit();
+		System.out.println("end");
+	}
 
 }

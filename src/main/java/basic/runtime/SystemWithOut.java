@@ -7,17 +7,17 @@ import java.util.concurrent.TimeUnit;
  **/
 public class SystemWithOut {
 
-    public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException {
 
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            System.out.println("I am out");
-        }));
+		Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+			System.out.println("I am out");
+		}));
 
-        TimeUnit.SECONDS.sleep(5);
+		TimeUnit.SECONDS.sleep(5);
 
-        System.exit(0);
+		System.exit(0);
 
-    }
+	}
 
 }
 

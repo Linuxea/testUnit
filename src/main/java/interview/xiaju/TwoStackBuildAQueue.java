@@ -7,9 +7,9 @@ package interview.xiaju;
  */
 
 public class TwoStackBuildAQueue {
-
-    public static void main(String[] args) {
-        // 略
-    }
-
+	
+	public static void main(String[] args) {
+		// 略
+	}
+	
 }

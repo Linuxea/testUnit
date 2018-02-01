@@ -8,16 +8,16 @@ package basic.inherit;
  */
 public class Son extends Father {
 
-    @Override
-    public void say() {
-        System.out.println("我是儿子");
-    }
+	@Override
+	public void say() {
+		System.out.println("我是儿子");
+	}
 
-    public void fatherSay() {
-        super.say();
-    }
+	public void fatherSay() {
+		super.say();
+	}
 
-    public void grandSay() {
+	public void grandSay() {
 
-    }
+	}
 }

@@ -5,10 +5,10 @@ package design.chain;
  * String 过滤器之添加结尾
  */
 public class AppendGoodFilter extends StringChain {
-
-    @Override
-    public String doIt(String t) {
-        t += " filter end!";
-        return t;
-    }
+	
+	@Override
+	public String doIt(String t) {
+		t += " filter end!";
+		return t;
+	}
 }

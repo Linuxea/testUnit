@@ -10,15 +10,15 @@ import java.util.stream.Stream;
  */
 public class ColectionStream {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        // 数组流
-        IntStream intStream = Arrays.stream(new int[]{0, 1, 2, 3, 4, 5, 9});
-        intStream.forEach(System.out::println);
+		// 数组流
+		IntStream intStream = Arrays.stream(new int[]{0, 1, 2, 3, 4, 5, 9});
+		intStream.forEach(System.out::println);
 
-        Stream<String> stringStream = Arrays.stream(new String[]{"abc", "cde", "efg"});
-        stringStream.forEach(System.out::println);
+		Stream<String> stringStream = Arrays.stream(new String[]{"abc", "cde", "efg"});
+		stringStream.forEach(System.out::println);
 
-    }
+	}
 
 }

@@ -7,28 +7,28 @@ public class PrivateInnerClass {
 
 //    private PrivateInnerClass privateInnerClass;
 
-    static {
-        System.out.println("privateInnerClass static");
-    }
+	static {
+		System.out.println("privateInnerClass static");
+	}
 
-    private PrivateInnerClass() {
-    }
+	private PrivateInnerClass() {
+	}
 
-    public static PrivateInnerClass getInstance() {
-        return Temp.privateInnerClass;
-    }
+	public static PrivateInnerClass getInstance() {
+		return Temp.privateInnerClass;
+	}
 
-    public static void main(String[] args) {
-        System.out.println(PrivateInnerClass.getInstance() == PrivateInnerClass.getInstance());
-    }
+	public static void main(String[] args) {
+		System.out.println(PrivateInnerClass.getInstance() == PrivateInnerClass.getInstance());
+	}
 
-    private static class Temp {
-        private static PrivateInnerClass privateInnerClass = new PrivateInnerClass();
+	private static class Temp {
+		private static PrivateInnerClass privateInnerClass = new PrivateInnerClass();
 
-        static {
-            System.out.println("temp static");
-        }
-    }
+		static {
+			System.out.println("temp static");
+		}
+	}
 
 
 }

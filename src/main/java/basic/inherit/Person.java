@@ -8,6 +8,6 @@ package basic.inherit;
  */
 public interface Person {
 
-    void say();
+	void say();
 
 }

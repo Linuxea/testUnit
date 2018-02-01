@@ -5,9 +5,9 @@ package design.chain;
  * chain的最高抽象
  */
 public interface Chain<T> {
-
-    T doIt(T t);
-
-    T begin(T t);
-
+	
+	T doIt(T t);
+	
+	T begin(T t);
+	
 }

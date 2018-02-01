@@ -11,56 +11,56 @@ import java.util.concurrent.TimeUnit;
 线程死锁：在一个同步方法中调用了另一个对象的同步方法，可能产生死锁
  */
 public class DeadThreadDemo {
-    public static void main(String[] args) throws InterruptedException {
-        new DeadRunnable();
-    }
+	public static void main(String[] args) throws InterruptedException {
+		new DeadRunnable();
+	}
 }
 
 class Customer {
-    public void say(Waiter waiter) {
-        synchronized (waiter) {
-            System.out.println("顾客说：先吃饭再买单！");
-            waiter.doService(this);
-        }
-    }
+	public void say(Waiter waiter) {
+		synchronized (waiter) {
+			System.out.println("顾客说：先吃饭再买单！");
+			waiter.doService(this);
+		}
+	}
 
-    public void doService(Waiter waiter) {
-        synchronized (waiter) {
-            System.out.println("同意了，先买单再吃饭！");
-        }
-    }
+	public void doService(Waiter waiter) {
+		synchronized (waiter) {
+			System.out.println("同意了，先买单再吃饭！");
+		}
+	}
 }
 
 class Waiter {
-    public void say(Customer customer) {
-        synchronized (customer) {
-            System.out.println("服务员说：先买单再吃饭！");
-            customer.doService(this);
-        }
-    }
+	public void say(Customer customer) {
+		synchronized (customer) {
+			System.out.println("服务员说：先买单再吃饭！");
+			customer.doService(this);
+		}
+	}
 
-    public void doService(Customer customer) {
-        synchronized (customer) {
-            System.out.println("同意了，先吃饭再买单！");
-        }
-    }
+	public void doService(Customer customer) {
+		synchronized (customer) {
+			System.out.println("同意了，先吃饭再买单！");
+		}
+	}
 }
 
 class DeadRunnable implements Runnable {
-    Customer c = new Customer();
-    Waiter w = new Waiter();
+	Customer c = new Customer();
+	Waiter w = new Waiter();
 
-    public DeadRunnable() throws InterruptedException {
-        while (true){
-            new Thread(this).start();
-            c.say(w);
-            TimeUnit.SECONDS.sleep(2);
-            System.out.println("");
-        }
-    }
+	public DeadRunnable() throws InterruptedException {
+		while (true) {
+			new Thread(this).start();
+			c.say(w);
+			TimeUnit.SECONDS.sleep(2);
+			System.out.println("");
+		}
+	}
 
-    @Override
-    public void run() {
-        w.say(c);
-    }
+	@Override
+	public void run() {
+		w.say(c);
+	}
 }

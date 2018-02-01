@@ -8,9 +8,9 @@ package basic.inherit;
  */
 public class Father extends GrandFather {
 
-    @Override
-    public void say() {
-        System.out.println("我是爸爸");
-    }
+	@Override
+	public void say() {
+		System.out.println("我是爸爸");
+	}
 
 }

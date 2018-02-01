@@ -6,28 +6,28 @@ package threads;
  */
 public class MethodInvokeStack {
 
-    public static void main(String[] args) {
-        MethodInvokeStack methodInvokeStack = new MethodInvokeStack();
-        methodInvokeStack.one();
+	public static void main(String[] args) {
+		MethodInvokeStack methodInvokeStack = new MethodInvokeStack();
+		methodInvokeStack.one();
 
-        // main -> one -> two -> three -> four
-    }
+		// main -> one -> two -> three -> four
+	}
 
-    public void one() {
-        two();
-    }
+	public void one() {
+		two();
+	}
 
-    private void two() {
-        three();
-    }
+	private void two() {
+		three();
+	}
 
-    private void three() {
-        four();
-    }
+	private void three() {
+		four();
+	}
 
-    private void four() {
-        throw new RuntimeException("I am running ");
-    }
+	private void four() {
+		throw new RuntimeException("I am running ");
+	}
 //
 //    Exception in thread "main" java.lang.RuntimeException: I am running
 //    at threads.MethodInvokeStack.four(MethodInvokeStack.java:18)

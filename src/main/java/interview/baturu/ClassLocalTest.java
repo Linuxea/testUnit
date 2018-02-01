@@ -9,33 +9,33 @@ import java.util.concurrent.TimeUnit;
  */
 public class ClassLocalTest {
 
-    private String string = "local";
+	private String string = "local";
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        ClassLocalTest classLocalTest = new ClassLocalTest();
+		ClassLocalTest classLocalTest = new ClassLocalTest();
 
-        for (int i = 0; i < 100; i++) {
-            int temp = i;
-            new Thread(() -> {
-                classLocalTest.change(temp);
-                try {
-                    TimeUnit.MILLISECONDS.sleep(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                classLocalTest.print();
-            }).start();
+		for (int i = 0; i < 100; i++) {
+			int temp = i;
+			new Thread(() -> {
+				classLocalTest.change(temp);
+				try {
+					TimeUnit.MILLISECONDS.sleep(1);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				classLocalTest.print();
+			}).start();
 
-        }
-    }
+		}
+	}
 
-    public void change(int i) {
-        string = "me" + i;
-    }
+	public void change(int i) {
+		string = "me" + i;
+	}
 
-    public void print() {
-        System.out.println(string);
-    }
+	public void print() {
+		System.out.println(string);
+	}
 
 }

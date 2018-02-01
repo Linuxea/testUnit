@@ -12,25 +12,25 @@ import java.net.URL;
  */
 public class ContextTest {
 
-    @Before
-    public void before(){
-    }
+	@Before
+	public void before() {
+	}
 
-    @After
-    public void after(){
-    }
+	@After
+	public void after() {
+	}
 
 
-    @Test
-    public void test(){
-        URL url =
-                Thread.currentThread().getContextClassLoader().getResource(".");
-        System.out.println(url);
+	@Test
+	public void test() {
+		URL url =
+				Thread.currentThread().getContextClassLoader().getResource(".");
+		System.out.println(url);
 
-        File root = new File(url.toString().substring(url.toString().indexOf("/")));
+		File root = new File(url.toString().substring(url.toString().indexOf("/")));
 
-        System.out.println(root.getName());
+		System.out.println(root.getName());
 
-    }
+	}
 
 }

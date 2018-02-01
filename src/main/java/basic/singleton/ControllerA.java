@@ -7,9 +7,9 @@ package basic.singleton;
 
 public class ControllerA {
 
-    private static final ServiceA SERVICE_A = new ServiceA();
+	private static final ServiceA SERVICE_A = new ServiceA();
 
-    public static ServiceA getServiceA() {
-        return SERVICE_A;
-    }
+	public static ServiceA getServiceA() {
+		return SERVICE_A;
+	}
 }

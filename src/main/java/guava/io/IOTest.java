@@ -14,12 +14,12 @@ import java.util.Arrays;
  */
 public class IOTest {
 
-    @Test
-    public void test1() throws IOException {
-        InputStream inputStream = new FileInputStream("C:\\Users\\linuxea.lin\\Desktop\\test.txt");
-        byte[] bytes = ByteStreams.toByteArray(inputStream);
-        System.out.println(Arrays.toString(bytes));
-        System.out.println(new String(bytes, Charsets.UTF_8)); //为什么还会乱码呢？
-    }
+	@Test
+	public void test1() throws IOException {
+		InputStream inputStream = new FileInputStream("C:\\Users\\linuxea.lin\\Desktop\\test.txt");
+		byte[] bytes = ByteStreams.toByteArray(inputStream);
+		System.out.println(Arrays.toString(bytes));
+		System.out.println(new String(bytes, Charsets.UTF_8)); //为什么还会乱码呢？
+	}
 
 }

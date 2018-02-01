@@ -5,18 +5,18 @@ package interview.yida;
  */
 public class Son extends Father {
 
-    public static void main(String[] args) {
-        new Son().say();
+	public static void main(String[] args) {
+		new Son().say();
 
-        new Son().sonSay();
-    }
+		new Son().sonSay();
+	}
 
-    public void say() {
-        System.out.println(super.name); // visit father non private fields
-    }
+	public void say() {
+		System.out.println(super.name); // visit father non private fields
+	}
 
-    public void sonSay() {
-        super.fatherSay();
-    }
+	public void sonSay() {
+		super.fatherSay();
+	}
 
 }

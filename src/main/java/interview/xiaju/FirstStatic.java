@@ -5,18 +5,18 @@ package interview.xiaju;
  */
 
 public class FirstStatic {
-
-    static {
-        System.out.println("I a static");
-    }
-
-    {
-        System.out.println("I am a non static block");
-    }
-
-    public static void main(String[] args) {
-        new FirstStatic();
-        new FirstStatic();
-    }
-
+	
+	static {
+		System.out.println("I a static");
+	}
+	
+	{
+		System.out.println("I am a non static block");
+	}
+	
+	public static void main(String[] args) {
+		new FirstStatic();
+		new FirstStatic();
+	}
+	
 }

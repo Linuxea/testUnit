@@ -5,15 +5,15 @@ package classloader;
  */
 public class ClassLoaderParent {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        ClassLoader classLoader = ClassLoaderParent.class.getClassLoader();
-        while (null != classLoader) {
-            System.out.println(classLoader.toString());
-            classLoader = classLoader.getParent();
-        }
+		ClassLoader classLoader = ClassLoaderParent.class.getClassLoader();
+		while (null != classLoader) {
+			System.out.println(classLoader.toString());
+			classLoader = classLoader.getParent();
+		}
 
-        System.out.println(ClassLoaderParent.class.getName());
-    }
+		System.out.println(ClassLoaderParent.class.getName());
+	}
 
 }

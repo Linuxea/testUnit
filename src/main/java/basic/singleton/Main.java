@@ -6,12 +6,12 @@ package basic.singleton;
  */
 
 public class Main {
-
-    public static void main(String[] args) {
-        ControllerA controllerA = new ControllerA();
-        ControllerA controllerA1 = new ControllerA();
-        System.out.println(controllerA == controllerA1);
-        // instance can not access static field
-        System.out.println(ControllerA.getServiceA() == ControllerA.getServiceA());
-    }
+	
+	public static void main(String[] args) {
+		ControllerA controllerA = new ControllerA();
+		ControllerA controllerA1 = new ControllerA();
+		System.out.println(controllerA == controllerA1);
+		// instance can not access static field
+		System.out.println(ControllerA.getServiceA() == ControllerA.getServiceA());
+	}
 }

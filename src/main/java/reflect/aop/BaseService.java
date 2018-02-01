@@ -9,12 +9,12 @@ package reflect.aop;
  */
 public interface BaseService {
 
-    void add();
+	void add();
 
-    void delete();
+	void delete();
 
-    void update();
+	void update();
 
-    void find();
+	void find();
 
 }

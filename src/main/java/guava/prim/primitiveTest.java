@@ -9,12 +9,12 @@ import java.util.List;
  * Created by Linuxea on 2017/8/18.
  */
 public class primitiveTest {
-
-    @Test
-    public void test() {
-        List<Integer> list = Ints.asList(1, 2, 3, 4, 4);
-        System.out.println(list);
-        Ints.asList(1, 2, 3).stream().forEach(System.out::println);
-    }
-
+	
+	@Test
+	public void test() {
+		List<Integer> list = Ints.asList(1, 2, 3, 4, 4);
+		System.out.println(list);
+		Ints.asList(1, 2, 3).stream().forEach(System.out::println);
+	}
+	
 }

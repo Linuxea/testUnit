@@ -5,15 +5,15 @@ package basic.valueorreference;
  */
 public class IntegerChange {
 
-    public static void main(String[] args) {
-        Integer integer = 0;
-        change(integer);
-        System.out.println("main" + integer); // still not change
-    }
+	public static void main(String[] args) {
+		Integer integer = 0;
+		change(integer);
+		System.out.println("main" + integer); // still not change
+	}
 
-    private static void change(Integer integer){
-        integer = 3;
-        System.out.println("change" + integer);
-    }
+	private static void change(Integer integer) {
+		integer = 3;
+		System.out.println("change" + integer);
+	}
 
 }

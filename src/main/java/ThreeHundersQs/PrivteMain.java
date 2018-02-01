@@ -8,13 +8,13 @@ package ThreeHundersQs;/**
  **/
 public class PrivteMain {
 
-    /**
-     * common method
-     *
-     * @param args
-     */
-    private static void main(String[] args) {
-        System.out.println("private main");
-    }
+	/**
+	 * common method
+	 *
+	 * @param args
+	 */
+	private static void main(String[] args) {
+		System.out.println("private main");
+	}
 
 }

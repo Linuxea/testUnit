@@ -9,19 +9,19 @@ package algorithm.easy;
  * allowed to use the operator + and -.
  **/
 public class TwoIntegerAdd {
-    public static void main(String[] args) {
-
-        System.out.println(new TwoIntegerAdd().getSum(3, 2));
-    }
-
-    public int getSum(int a, int b) {
-        int sum, carry;
-        do {
-            sum = a ^ b;
-            carry = (a & b) << 1;
-            a = sum;
-            b = carry;
-        } while (b != 0);
-        return a;
-    }
+	public static void main(String[] args) {
+		
+		System.out.println(new TwoIntegerAdd().getSum(3, 2));
+	}
+	
+	public int getSum(int a, int b) {
+		int sum, carry;
+		do {
+			sum = a ^ b;
+			carry = (a & b) << 1;
+			a = sum;
+			b = carry;
+		} while (b != 0);
+		return a;
+	}
 }

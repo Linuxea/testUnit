@@ -10,11 +10,11 @@ import org.junit.Test;
  */
 public class InheritTest {
 
-    @Test
-    public void test1() {
-        Son son = new Son();
-        son.say();
-        son.fatherSay();
-    }
+	@Test
+	public void test1() {
+		Son son = new Son();
+		son.say();
+		son.fatherSay();
+	}
 
 }

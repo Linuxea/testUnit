@@ -5,8 +5,8 @@ import java.io.BufferedReader;
 
 /**
  * 文件处理函数式接口
- * @author linuxea.lin
  *
+ * @author linuxea.lin
  */
 @FunctionalInterface
 public interface Process {

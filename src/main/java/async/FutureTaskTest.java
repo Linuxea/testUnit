@@ -14,27 +14,27 @@ import java.util.concurrent.TimeUnit;
  * @desc class description
  */
 public class FutureTaskTest {
-
-    @Test
-    public void test1() {
-        ExecutorService exec = Executors.newFixedThreadPool(1);
-        FutureTask<Integer> ft = new FutureTask<>(() -> {
-            System.out.println("老子要休眠2s，请注意.....");
-            TimeUnit.SECONDS.sleep(2);
-            return Integer.valueOf(10086);
-        });
-        exec.submit(ft);
-        System.out.println("你好啊@");
-        try {
-            System.out.println("isDone:" + ft.isDone());
-            Object rs = ft.get();
-            System.out.println(rs);
-            System.out.println("isDone:" + ft.isDone());
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            exec.shutdown();
-        }
-    }
-
+	
+	@Test
+	public void test1() {
+		ExecutorService exec = Executors.newFixedThreadPool(1);
+		FutureTask<Integer> ft = new FutureTask<>(() -> {
+			System.out.println("老子要休眠2s，请注意.....");
+			TimeUnit.SECONDS.sleep(2);
+			return Integer.valueOf(10086);
+		});
+		exec.submit(ft);
+		System.out.println("你好啊@");
+		try {
+			System.out.println("isDone:" + ft.isDone());
+			Object rs = ft.get();
+			System.out.println(rs);
+			System.out.println("isDone:" + ft.isDone());
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			exec.shutdown();
+		}
+	}
+	
 }
