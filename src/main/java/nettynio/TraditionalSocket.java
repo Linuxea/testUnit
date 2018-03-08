@@ -10,15 +10,16 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
+ * @author linuxea
  * Created by Linuxea on 2017-08-08.
  */
-public class TraditionalServerSocker {
+public class TraditionalSocket {
 	
 	private volatile boolean on = true;
 	private ServerSocket serverSocket;
 	
 	public static void main(String[] argc) throws IOException {
-		TraditionalServerSocker socket = new TraditionalServerSocker();
+		TraditionalSocket socket = new TraditionalSocket();
 		socket.init();
 		//socket.off();
 	}
