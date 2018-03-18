@@ -16,8 +16,8 @@ public class MethodReferencesTest {
     public void test1() {
         List<String> listStr = java.util.Arrays.asList("a", "b", "c");
         listStr.stream().map(String::toUpperCase).forEach(System.out::println);
-//		A
-//		B
+//		LazySupplierA
+//		SupplierLazyB
 //		C
 
     }
