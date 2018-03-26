@@ -10,13 +10,21 @@ import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by Linuxea on 2017/8/8.
+ * @author Linuxea
+ * Created by  on 2017/8/8.
  */
 public class ReceiptNOUtils {
 	
 	private static final Map<String, AtomicInteger> receiptAtomic = Maps.newConcurrentMap();
-	private static final Map<String, String> receptiPrefix = Maps.newConcurrentMap(); //table与前缀的映射
-	private static final Map<String, String> timeMap = Maps.newConcurrentMap(); //模块与时间格式关联
+	/**
+	 * table与前缀的映射
+	 */
+	private static final Map<String, String> receptiPrefix = Maps.newConcurrentMap();
+	
+	/**
+	 * 模块与时间格式关联
+	 */
+	private static final Map<String, String> timeMap = Maps.newConcurrentMap();
 	private static final Object lock = new Object();
 	private static int NUM_LEN = 3;
 	
@@ -50,7 +58,8 @@ public class ReceiptNOUtils {
 	private static String handleTailNums(Integer tailNums) {
 		StringBuilder sb = new StringBuilder("");
 		for (int j = tailNums.toString().length(); NUM_LEN > j; j++) {
-			sb.append("0"); //不足三位前面补零 超过三位返回原来值
+			//不足三位前面补零 超过三位返回原来值
+			sb.append("0");
 		}
 		return sb.append(tailNums).toString();
 	}
@@ -73,13 +82,15 @@ public class ReceiptNOUtils {
 			if (null == receiptAtomic.get(tableName)) {
 				String sql = "SELECT " + receiptFieldName + " FROM " + tableName + " WHERE " + idFieldName + " = (SELECT MAX(" + idFieldName + ") FROM " + tableName + ") AND DATE(CREATE_TIME) = '" + LocalDate.now() + "' ;";
 				Record latestRecord = Db.findFirst(sql);
-				if (null == latestRecord) { //表示是今天第一个获取
+				//表示是今天第一个获取
+				if (null == latestRecord) {
 					receiptAtomic.put(tableName, new AtomicInteger(0));
 				} else {
 					String receiptVal = latestRecord.getStr(receiptFieldName);
 					String prefix = getPrefix(constStant, tableName);
 					String time = getTime(constStant, tableName);
-					receiptVal = receiptVal.substring(prefix.length() + time.length()); //防止尾数不止三位的特殊情况
+					//防止尾数不止三位的特殊情况
+					receiptVal = receiptVal.substring(prefix.length() + time.length());
 					receiptAtomic.put(tableName, new AtomicInteger(Integer.parseInt(receiptVal)));
 				}
 			}

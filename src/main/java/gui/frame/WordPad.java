@@ -10,7 +10,7 @@ import javax.swing.*;
  */
 public class WordPad extends JFrame {
 	
-	private WordPad() {
+	public WordPad() {
 		
 		setTitle("记事本");
 		setBounds(850, 70, 500, 400);
@@ -51,5 +51,4 @@ public class WordPad extends JFrame {
 		setVisible(true);
 		
 	}
-	
 }
