@@ -14,7 +14,7 @@ public class primitiveTest {
 	public void test() {
 		List<Integer> list = Ints.asList(1, 2, 3, 4, 4);
 		System.out.println(list);
-		Ints.asList(1, 2, 3).stream().forEach(System.out::println);
+		Ints.asList(1, 2, 3).forEach(System.out::println);
 	}
 	
 }
