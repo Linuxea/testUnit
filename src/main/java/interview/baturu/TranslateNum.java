@@ -56,7 +56,7 @@ public class TranslateNum {
 		char[] arr = temp.toString().toCharArray();
 		int i = arr.length - 1;
 		for (int k = i; i > 0 && Character.valueOf(arr[k--]).toString().equals("零"); ) {
-			i = k; // tip
+			i = k;
 		}
 		return temp.subSequence(0, i + 1).toString();
 	}
