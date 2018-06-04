@@ -1,5 +1,7 @@
 package interview.jingyugame;
 
+import interview.jingyugame.abstractclassextend.AbstractGame;
+import interview.jingyugame.abstractclassextend.CarGame;
 import org.junit.Test;
 
 /**

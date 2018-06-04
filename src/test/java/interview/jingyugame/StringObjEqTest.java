@@ -1,5 +1,6 @@
 package interview.jingyugame;
 
+import interview.jingyugame.strinbobj.StringObjEq;
 import org.junit.Test;
 
 /**
