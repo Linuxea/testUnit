@@ -6,7 +6,7 @@ package interview.jingyugame;
  * @author linuxea
  * @date 2018/6/5
  */
-public class AbstractGame extends Game {
+public abstract class AbstractGame extends Game {
 	
 	public AbstractGame(String name, String detail) {
 		super(name, detail);
