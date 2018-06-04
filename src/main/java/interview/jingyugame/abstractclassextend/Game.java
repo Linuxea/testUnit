@@ -1,4 +1,4 @@
-package interview.jingyugame;
+package interview.jingyugame.abstractclassextend;
 
 /**
  * @author linuxea
@@ -22,7 +22,7 @@ public class Game {
 				'}';
 	}
 	
-	protected void explain() {
+	public void explain() {
 		System.out.println("Game{" +
 				"name='" + name + '\'' +
 				", detail='" + detail + '\'' +

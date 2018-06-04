@@ -1,4 +1,4 @@
-package interview.jingyugame;
+package interview.jingyugame.strinbobj;
 
 /**
  * @author linuxea

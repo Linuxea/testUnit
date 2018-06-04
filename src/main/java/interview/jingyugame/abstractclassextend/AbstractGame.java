@@ -1,4 +1,4 @@
-package interview.jingyugame;
+package interview.jingyugame.abstractclassextend;
 
 /**
  * 抽象类可以继承实体类
